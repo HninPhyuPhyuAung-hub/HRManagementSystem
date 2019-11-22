@@ -1,0 +1,1044 @@
+﻿@font-face {
+    font-family: STAGSANS-LIGHT;
+    src: url('../Content/fonts/STAGSANS-LIGHT.OTF');
+}
+
+@font-face {
+    font-family: mm3web;
+    src: url('../Content/font/mm3web.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: mon3;
+    src: url('../Content/font/UniMon.ttf')format('truetype');
+}
+@font-face {
+    font-family: sawknya;
+    src: url('../Content/font/sawknyaw.ttf')format('truetype');
+}
+@font-face {
+            font-family: 'zgfont';
+            src: url('../Content/font/ZawgyiOne20071204.ttf') format('truetype');
+}
+@font-face {
+    font-family: panglong;
+    src: url('../Content/font/PangLong-20100306e (1).ttf')format('truetype');
+}
+@font-face {
+    font-family: 'KP10___';
+    src: url('font/KP10___.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'SUTOM___';
+    src: url('../fonts/SutonnyMJ/SUTOM___.TTF') format('truetype'), url('../fonts/SutonnyMJ/SutonnyMJ-Bold.ttf') format('truetype'), url('../fonts/SutonnyMJ/SutonnyMJ-BoldItalic.ttf') format('truetype'), url('../fonts/SutonnyMJ/SutonnyMJ-Italic.ttf') format('truetype'), url('../fonts/SutonnyMJ/SutonnyOMJ.ttf') format('truetype');
+}
+/*for ContactProvider*/
+
+.icheckbox_square-green {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(green.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.mon3{
+     font-family: 'mon3' !important;
+    font-size:13px;
+}
+.sawknya{
+     font-family: 'sawknya' !important;
+   font-size: 18px;
+}
+.panglong{
+     font-family: 'panglong' !important;
+    font-size:13px;
+}
+.zgfont{
+     font-family: 'zgfont' !important;
+    font-size:14px;
+}
+.kp10{
+     font-family: 'KP10___' !important;
+    font-size:20px;
+}
+
+.bang{
+       font-family: 'SUTOM___' !important;
+    font-size:18px;
+}
+.coverphoto {
+background-position:center;
+    background-size: contain;
+    background-image: url('image/cover.png');
+    background: #e48ab5; /* Old browsers */
+    background: url('image/cover.png')no-repeat,-moz-linear-gradient(left, #ED8CAD 0%, #DC84B9 100%); /* FF3.6-15 */
+    background: url('image/cover.png')no-repeat,-webkit-linear-gradient(left, #ED8CADs 0%,#DC84B9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url('image/cover.png')no-repeat,linear-gradient(to right, #ED8CAD 0%,#DC84B9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e48ab5', endColorstr='#d085cb',GradientType=1 ); /* IE6-9 */
+}
+
+.pb {
+    background: url('image/Providerlogos/bg_color_wah-(2).png') no-repeat;      
+    background-size:cover;
+    height:794px;  
+}
+
+.contentp{
+  font-size:20px;
+  font-family: STAGSANS-LIGHT;
+
+
+}
+@media (max-width: 720px) {
+    .pb {
+        background-image: none;
+        background-color: #ff95be;
+    }
+}
+
+@media (max-width: 720px) {
+    .logo {
+        background-image: none;
+        background-color: #ff95be;
+    }
+}
+.tems{
+    background: #EB6195; 
+    height: 200px;
+padding-top: 50px;
+ color:#ffffff
+}
+.about{
+    font-size:25px;
+    text-align:center;
+   padding-top:40px;
+}
+.amazing{
+    font-size:15px;
+    text-align:center;
+    padding-top:10px;
+}
+
+.contact{
+    font-size:20px;
+    color:#EF58A4;
+    font-weight:bold;
+}
+.iconfont{
+    font-size:1.5em;
+    color:#EF58A4;
+    padding-right:10px;
+}
+.contactbtn{
+    background-color:#EE5AA4;
+    color:white;
+    margin-top:10px;
+ 
+}
+.sendmsg{
+    font-size:30px;
+    color:#EF58A4;
+    font-weight:bold;
+}
+.font {
+    font-family: 'mm3web';
+    font-size: 18px;
+}
+
+.ml35{
+    margin-left:35px;
+}
+.ml20{
+    margin-left:20px;
+}
+.fz18{
+    font-size:18px;
+}
+.orderfz{
+    font-size:18px;
+    font-weight:bold;
+    font-style:italic;
+   
+}
+.mobile {
+    font-size: 17px;
+    color: #c2b6a3;
+    padding-top: 3px;
+}
+
+.mr {
+    margin-right: 50px;
+}
+.mr18{
+    margin-right:18px;
+}
+.mt2{
+    margin-top:2px;
+}
+.ml{
+    margin-left:60px;
+}
+.btncolor {
+    background-color: #FF67A3;
+    color: white;
+    width: 100%;
+}
+
+.btnreg {
+    background-color: #FF67A3;
+    color: white;
+    width: 100%;
+}
+
+.download {
+    background-color: #000000;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.pb15{
+    padding-bottom:15px;
+}
+.navclr {
+    background-color: #EB6195;
+    height: 75px;
+}
+
+.log {
+    background-color: #D13A73;
+    margin: 22px 0px 0px -20px;
+}
+.orderby{
+    margin-top:20px;
+
+}
+.upload {
+    background-color: #EB6195;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.register {
+    background-color: #EB6195;
+    margin-left: 15px;
+}
+
+.mm {
+    padding-left: 150px;
+    padding-top: 5px;
+}
+
+.reg {
+    background-color: #EB6195;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.bg {
+    background-color: #FFBCD5;
+}
+
+.navtxt {
+    background-color: #EB6195;
+    height: 50px;
+}
+
+.name {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.photo{
+   margin-top:-160px;
+   margin-left:72px
+}
+.pname{
+     padding-left:280px;
+     margin-top:-90px;
+     margin-left:5px;
+}
+.follow {
+ padding-left:200px;
+ margin-top:-90px;
+}
+
+.num {
+    color: #9B9B9B;
+    font-weight: bold;
+    font-size: 15px;
+}
+.add{   
+     background-color:#EB6195;
+     color:white;
+      padding: 4px 13px 4px 13px;
+      font-size:16px;
+    
+}
+.date {   
+    background-color: #EB6195;
+    color: white;
+      font-size:14px;
+   padding: 4px 13px 4px 13px;
+}
+
+.react {
+  margin-right:0px;
+    background-color: #EB6195;
+    color: white;
+      font-size:14px;
+    padding: 4px 13px 4px 13px;
+}
+.impre {
+    background-color: #EB6195;
+    color: white;
+      font-size:14px;
+   padding: 4px 13px 4px 13px;
+}
+
+.edit {
+    margin-left: 77px;
+    background-color: #EB6195;
+    color: white;
+    padding: 2px 5px 2px 12px;
+}
+
+.delete {
+    background-color: #9B9B9B;
+    color: white;
+    padding: 2px 5px 2px 12px;
+}
+
+.title {
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 17px;
+    text-align: justify;
+    line-height: 25px;
+  font-family: mm3web;
+}
+
+.hrline {
+    border: 1px solid #f4f4f4;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.maymaylogo{
+    width:5%;
+    position:relative;
+    margin-top:-650px;
+    margin-left:120px;
+}
+.koekoe{
+     text-decoration:none;
+     color:white;
+     font-weight:bold;
+     font-size:16px;
+}
+.doctor{
+    background-color:#EB6195;
+   
+    font-size:15px;
+
+}
+.doctor:hover{
+    background-color:#FAFAFA;
+    color:black;
+    font-size:15px;
+
+}
+.women{
+      background-color:#EB6195;
+ 
+    font-size:15px;
+}
+.women:hover{
+    background-color:#FAFAFA;
+    color:black;
+    font-size:15px;
+
+}
+.maymay{
+      width:5%;
+    position:relative;
+    margin-top:10px;
+    margin-left:20px;
+}
+.textwhite{
+    color:#e6e6e5;
+    font-weight:bold;
+    font-size:17px;
+}
+.icon{
+color:#808080;
+}
+/*For provider*/
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl17 {
+    padding-left: 17px;
+}
+.pl20{
+    padding-left:20px;
+}
+.pl25{
+    padding-left:25px;
+}
+.pl30{
+    padding-left:30px;
+}
+.pr17 {
+    padding-right: 17px;
+}
+
+.pr25 {
+    padding-right: 25px;
+}
+
+.pr5 {
+    padding-right: 5px;
+}
+
+.pr10 {
+    padding-right: 10px;
+}
+
+.pb20{
+    padding-bottom:20px;
+}
+
+
+html {
+    font-family: STAGSANS-LIGHT !important;
+}
+
+.items {
+    cursor: pointer;
+}
+
+    .items:hover {
+        background-color: #f7f7f7;
+    }
+
+.myimg:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: all .2s;
+    -webkit-transition: all 1s;
+}
+
+.items:hover .myimg:after {
+    opacity: 1;
+}
+
+
+.custombadge1 {
+    background-color: #ffffff;
+    border: 1px #ff4e2b solid;
+    border-radius: 5px;
+    padding: 3px;
+    color: #1a1a1a;
+}
+
+.custombadge2 {
+    background-color: #ffffff;
+    border: 1px #55bdff solid;
+    border-radius: 5px;
+    padding: 3px;
+    color: #1a1a1a;
+}
+
+.custombadge3 {
+    background-color: #ffffff;
+    border: 1px #d25b9f solid;
+    border-radius: 5px;
+    padding: 3px;
+    color: #1a1a1a;
+}
+
+.custombadge4 {
+    background-color: #ffffff;
+    border: 1px #428af5 solid;
+    border-radius: 5px;
+    padding: 3px;
+    color: #1a1a1a;
+}
+
+.custombadge5 {
+    background-color: #81B53E;
+    border: 1px #81B53E solid;
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.custombadge6 {
+    background-color: #428af5;
+    border: 1px #428af5 solid;
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.custombadge7 {
+    background-color: #ff4e2b;
+    border: 1px #ff4e2b solid;
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.custombadge8 {
+    background-color: #ffffff;
+    border: 1px #ff4e2b solid;
+    border-radius: 5px;
+    padding: 4px 4px 4px 4px;
+    color: #ff4e2b;
+    font-weight: 500;
+}
+
+.maycolor {
+    color: #428af5;
+}
+.textcolor {
+	
+	line-height: 30px;
+}
+
+.myhover {
+	margin-top: 45px;
+	width: 120px;
+	height: 120px;
+	background-color: #ffedd4;
+	cursor: pointer;
+	border: 1px #ff4e2b solid;
+	border-radius: 50%;
+	padding: 25px;
+}
+
+    .myhover:hover {
+        background-color: #428af5;
+        color: #ffffff;
+    }
+
+input[type="text"], input[type="number"], input[type="datetime"], input[type="time"], textarea {
+    background-color: #fafafa;
+    box-shadow: inset 0 0 0;    
+}
+
+
+.myanmar3font {
+    font-family: mm3web;
+    font-size: 15px;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+.bgf7 {
+    background-color: #f7f7f7;
+}
+
+.nmfont {
+    font-weight: normal;
+}
+
+.ttext {
+    font-weight: 500;
+}
+
+.btnmain {
+    background-color: #428af5;
+    color: #fff;
+    border: 1px solid #428af5;
+    border-radius: 20px;
+}
+
+    .btnmain:hover {
+        background-color: #428af5;
+        border: 1px solid #428af5;
+    }
+
+.btn-default {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
+}
+
+    .btn-default:hover {
+        background-color: #dcdcdc;
+        border: 1px solid #1a1a1a;
+    }
+
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ma30 {
+    margin: 30px;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+.pt1{
+    padding-top:1px;
+}
+.pt-20 {
+  padding-top: 20px!important;
+}
+.bd0 {
+    border: 0px;
+}
+
+.tbfont {
+    color: #1a1a1a;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.valignT {
+    vertical-align: top;
+}
+
+.valignM {
+    vertical-align: middle;
+}
+
+.valignB {
+    vertical-align: bottom;
+}
+
+.dimtext {
+    color: #6f6f6f;
+}
+
+.textE {
+    white-space: nowrap;
+    width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ma5 {
+    margin: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.Mlist {
+    cursor: pointer;
+}
+
+    .Mlist:hover {
+        background-color: #fafafa;
+    }
+
+.bglist {
+    background-color: #f5f5f5;
+}
+
+.dateform{
+    float:right !important;
+}
+.btnspace{
+    margin-left:-15px;
+}
+.text-bold{
+     font-family: 'fontawesome-webfont';
+     color:#394F69;
+    font-size:30px;
+    
+}
+
+.ref-card{
+    font-weight: bold;
+}
+
+.ref-card h1{
+    font-weight:bolder;
+}
+
+.ref-card i{
+    font-size:3em;
+}
+
+.ref-card span{
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-size:1em;
+}
+
+.cl-green{
+    color:#97de95;
+}
+.cl-red{
+    color:#f67280;
+}
+.cl-blue{
+    color:#0074e4;
+}
+
+.custom-card{
+    background:#fff;
+    border-radius:10px;
+-webkit-box-shadow: 1px 6px 16px 1px #E6E6E6;
+box-shadow: 1px 6px 16px 1px #E6E6E6;
+padding: 20px 10px;
+margin:10px 0;
+overflow:hidden;
+}
+
+
+
+
+.spinner {
+    margin: 100px auto 0;
+    width: 80px;
+    text-align: center;
+}
+
+    .spinner > div {
+        width: 18px;
+        height: 18px;
+        background-color: #428af5;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    }
+
+    .spinner .bounce1 {
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+    }
+
+    .spinner .bounce2 {
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+    }
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%, 80%, 100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+
+.sbactive {
+    background-color: #428af5;
+}
+
+
+
+
+
+/*************** SCROLLBAR BASE CSS ***************/
+
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+    .scroll-wrapper > .scroll-content {
+        border: none !important;
+        box-sizing: content-box !important;
+        height: auto;
+        left: 0;
+        margin: 0;
+        max-height: none;
+        max-width: none !important;
+        overflow: scroll !important;
+        padding: 0;
+        position: relative !important;
+        top: 0;
+        width: auto !important;
+    }
+
+        .scroll-wrapper > .scroll-content::-webkit-scrollbar {
+            height: 0;
+            width: 0;
+        }
+
+.scroll-element {
+    display: none;
+}
+
+    .scroll-element, .scroll-element div {
+        box-sizing: content-box;
+    }
+
+        .scroll-element.scroll-x.scroll-scrollx_visible,
+        .scroll-element.scroll-y.scroll-scrolly_visible {
+            display: block;
+        }
+
+        .scroll-element .scroll-bar,
+        .scroll-element .scroll-arrow {
+            cursor: default;
+        }
+
+.scroll-textarea {
+    border: 1px solid #cccccc;
+    border-top-color: #999999;
+}
+
+    .scroll-textarea > .scroll-content {
+        overflow: hidden !important;
+    }
+
+        .scroll-textarea > .scroll-content > textarea {
+            border: none !important;
+            box-sizing: border-box;
+            height: 100% !important;
+            margin: 0;
+            max-height: none !important;
+            max-width: none !important;
+            overflow: scroll !important;
+            outline: none;
+            padding: 2px;
+            position: relative !important;
+            top: 0;
+            width: 100% !important;
+        }
+
+            .scroll-textarea > .scroll-content > textarea::-webkit-scrollbar {
+                height: 0;
+                width: 0;
+            }
+
+
+
+
+/*************** SIMPLE OUTER SCROLLBAR ***************/
+
+.scrollbar-outer > .scroll-element,
+.scrollbar-outer > .scroll-element div {
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.scrollbar-outer > .scroll-element {
+    background-color: #ffffff;
+}
+
+    .scrollbar-outer > .scroll-element div {
+        display: block;
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .scrollbar-outer > .scroll-element.scroll-x {
+        bottom: 0;
+        height: 12px;
+        left: 0;
+        width: 100%;
+    }
+
+    .scrollbar-outer > .scroll-element.scroll-y {
+        height: 100%;
+        right: 0;
+        top: 0;
+        width: 12px;
+    }
+
+    .scrollbar-outer > .scroll-element.scroll-x .scroll-element_outer {
+        height: 8px;
+        top: 2px;
+    }
+
+    .scrollbar-outer > .scroll-element.scroll-y .scroll-element_outer {
+        left: 2px;
+        width: 8px;
+    }
+
+    .scrollbar-outer > .scroll-element .scroll-element_outer {
+        overflow: hidden;
+    }
+
+    .scrollbar-outer > .scroll-element .scroll-element_track {
+        background-color: #eeeeee;
+    }
+
+    .scrollbar-outer > .scroll-element .scroll-element_outer,
+    .scrollbar-outer > .scroll-element .scroll-element_track,
+    .scrollbar-outer > .scroll-element .scroll-bar {
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .scrollbar-outer > .scroll-element .scroll-bar {
+        background-color: #d9d9d9;
+    }
+
+        .scrollbar-outer > .scroll-element .scroll-bar:hover {
+            background-color: #c2c2c2;
+        }
+
+    .scrollbar-outer > .scroll-element.scroll-draggable .scroll-bar {
+        background-color: #919191;
+    }
+
+
+/* scrollbar height/width & offset from container borders */
+
+.scrollbar-outer > .scroll-content.scroll-scrolly_visible {
+    left: -12px;
+    margin-left: 12px;
+}
+
+.scrollbar-outer > .scroll-content.scroll-scrollx_visible {
+    top: -12px;
+    margin-top: 12px;
+}
+
+.scrollbar-outer > .scroll-element.scroll-x .scroll-bar {
+    min-width: 10px;
+}
+
+.scrollbar-outer > .scroll-element.scroll-y .scroll-bar {
+    min-height: 10px;
+}
+
+
+/* update scrollbar offset if both scrolls are visible */
+
+.scrollbar-outer > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
+    left: -14px;
+}
+
+.scrollbar-outer > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {
+    top: -14px;
+}
+
+.scrollbar-outer > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {
+    left: -14px;
+}
+
+.scrollbar-outer > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
+    top: -14px;
+}
+
+
+.dateinput{
+    max-width:400px !important;
+}
+
+.datepicker {
+    padding: 15px !important;
+}
+
+
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+    .autocomplete-group strong {
+        display: block;
+        border-bottom: 1px solid #000;
+    }
+
+
+    /*leaderdashboard*/
+
+    .divider-sm{
+        margin-top:200px;
+    }
+
+
+
+    /*Referral detail*/
+    .colortxt{
+        font-size:25px;
+        color:#FF7794;
+        padding-left:20px;
+    }
+    .total{
+        font-size:20px;
+        color:#FF7794;
+    }
+    .fz20{
+        font-size:20px;
+    }
+    .fz25{
+        font-size:25px;
+    }
+    .fz40{
+        font-size:40px;
+    }

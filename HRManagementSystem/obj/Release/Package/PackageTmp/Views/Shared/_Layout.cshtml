@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html>
+<html class="ls-top-navbar show-sidebar sidebar-l2" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <style>
+        .dropbtn {
+            background-color: #668cff;
+            color: black;
+            padding: 14px;
+            font-size: 14px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 180px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #00ccff;
+        }
+        nav ul li ul {
+            display: none;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+    </style>
+    <link rel="shortcut icon" href="~/Image/hrlogo.jpg" />
+
+    <title>HR Web Portal</title>
+
+    <link href="~/themekit/css/all.css" rel="stylesheet" />
+    <link href="~/themekit/css/app.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link href="~/assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" />
+    
+    @RenderSection("css", required: false)
+</head>
+<body>
+    <!-- Fluid navbar -->
+    <div class="navbar navbar-main navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" data-toggle="sidebar-menu" class="toggle pull-left visible-xs">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+
+                <a class="navbar-brand navbar-brand-primary" href="@Url.Action("StartView", "HumanResource")">
+                    <div class="row">
+                        <div class="col-md-4" >
+                            <img class="img-circle" src="~/Image/hr4.jpg" width="70%" style="margin-top:-5px;margin-bottom:1px;" />
+                        </div>
+                        <div class="col-md-8" style="margin:-3px -6px;margin-left:-20px">
+                            <span style="font-size:20px;color:black">HR Portal</span>
+                        </div>
+                    </div>
+
+                </a>
+
+
+            </div>
+            @if (User.Identity.IsAuthenticated)
+            {
+
+            }
+            else
+            {
+                int memberID = Convert.ToInt32(Request.Cookies["hrCookie"]["AdminID"]);
+                var membername = Request.Cookies["hrCookie"]["UserName"];
+                var role = Request.Cookies["hrCookie"]["Role"];
+
+                if (role == "Admin")
+                {
+                    <div class="navbar-collapse collapse" id="collapse">
+                        <div class="row">
+
+                            @*<div class="col-md-5 style="margin-top:10px;margin-bottom:-10px""></div>*@
+                            <div class="col-md-4" style="margin-top:10px;margin-bottom:-10px">
+                               
+                            </div>
+
+
+                            <div class="col-md-4">
+
+                                <div class="dropdown" style="margin-top:10px;margin-bottom:-10px;padding-left:680px">
+                                    <button class="btn btn-xs pull-right" style="padding:6px;color:black;background-color:blue;"> <i class="icon-settings-wheel-fill"></i>  Setting</button>
+                                    <div class="dropdown-content">
+                                        <a href="@Url.Action("ChangePassword" ,"UserLogin")"><i class="icon-lock-fill"></i>  <font color="blue">  Change Password</font> </a>
+                                        <a href="@Url.Action("Register" ,"UserLogin")"><i class="icon-folder-add"></i>  <font color="blue">  Add New Account</font></a>
+                                        @*  <a href="#"></a>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div style="margin-top:10px;margin-bottom:-10px;">
+                                    <a class="btn btn-xs pull-right" style="padding:5px;color:black;background-color:blue;" href="@Url.Action("LogOut", "UserLogin")"><i class="fa fa-sign-out"></i>Sign Out</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                }
+
+                else
+                {
+                    <div class="navbar-collapse collapse" id="collapse">
+                        <div class="row">
+
+                            @*<div class="col-md-5 style="margin-top:10px;margin-bottom:-10px""></div>*@
+                            <div class="col-md-4" style="margin-top:10px;margin-bottom:-10px">
+                                
+                            </div>
+
+
+                            <div class="col-md-4">
+
+                                <div class="dropdown" style="margin-top:10px;margin-bottom:-10px;padding-left:680px">
+                                    <button class="btn btn-xs pull-right" style="padding:6px;color:black;background-color:blue;"> <i class="icon-settings-wheel-fill"></i>  Setting</button>
+                                    <div class="dropdown-content">
+                                        <a href="@Url.Action("ChangePassword" ,"UserLogin")"><i class="icon-lock-fill"></i>  <font color="blue">  Change Password</font> </a>
+                                       
+                                        @*  <a href="#"></a>*@
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div style="margin-top:10px;margin-bottom:-10px;">
+                                    <a class="btn btn-xs pull-right" style="padding:5px;color:black;background-color:blue;" href="@Url.Action("LogOut", "UserLogin")"><i class="fa fa-sign-out"></i>Sign Out</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+   
+    
+    <div class="sidebar left sidebar-size-2 sidebar-offset-0 sidebar-skin-dark sidebar-visible-desktop sidebar-visible-mobile" id=sidebar-menu data-type=dropdown>
+        <div class="split-vertical">
+
+            <div class="split-vertical-body">
+                <div class="split-vertical-cell">
+                    <div data-scrollable>
+
+                        <ul class="sidebar-menu" style="margin-left:15px;line-height:3.4;">
+                            
+
+                            
+                            @if(User.Identity.IsAuthenticated)
+                            {
+                            }
+                            else
+                            {
+                                var role = Request.Cookies["hrCookie"]["Role"];
+                                var membername = Request.Cookies["hrCookie"]["UserName"];
+                                if (role=="Admin")
+                                {
+                            <nav>
+
+                                <ul>
+                                    <li class="category" style="color:deepskyblue" ;font-size:20px">Welcome @membername</li>
+
+                                    <li>
+                                        <i class="fa fa-globe"></i><span><font color="white">Dashboard</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Dashboard", "HumanResource")"><i class="icon-worldwide"></i><font color="white">Dashboard</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-user-plus"></i><span><font color="white">Employee Details</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Index", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Add New Employee</font></a>
+                                            </li>
+                                            <li>
+                                                <a href="@Url.Action("EmployeeList", "HumanResource")"><i class="fa fa-list"></i><font color="white">Employee List</font></a>
+                                            </li>
+                                        </ul>
+
+
+                                    </li>
+
+                                    <li>
+                                        <i class="icon-browser"></i><span><font color="white">Department Details</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Department", "HumanResource")"><i class="fa fa-table"></i><font color="white">Department</font></a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-user"></i><span><font color="white">Recruitment</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Vacancies", "HumanResource")"><i class="fa fa-gears"></i><font color="white">Vacancies</font></a>
+                                            </li>
+                                            <li>
+                                                <a href="@Url.Action("Application", "HumanResource")"><i class="fa fa-mail-reply"></i><font color="white">Application</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-bus"></i><span><font color="white">Leave</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Leave", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Add Leave</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-money"></i><span><font color="white">Pay Roll</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Salary", "HumanResource")"><i class="fa fa-calculator"></i><font color="white">Calculate Salary</font></a>
+                                            </li>
+                                            <li>
+                                                <a href="@Url.Action("Paysliplist", "HumanResource")"><i class="fa fa-list"></i><font color="white">Payslip List</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-print"></i><span><font color="white">Award</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Award", "HumanResource")"><i class="icon-happy-content"></i><font color="white">Award</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tags"></i><span><font color="white">Expense</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Expense", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Expense</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-bell"></i><span><font color="white">Notice Board</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("NoticeBoard", "HumanResource")"><i class="fa fa-mail-reply-all"></i><font color="white">NoticeBoard</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-paper-plane-o"></i><span><font color="white">Message</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Message", "HumanResource")"><i class="fa fa-mail-reply "></i><font color="white">Message</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </nav>
+                                }
+                                else
+                                {
+                            <nav>
+
+                                <ul>
+
+
+                                    <li class="category" style="color:deepskyblue" ;font-size:20px">Welcome @membername</li>
+                                    <li>
+                                        <i class="fa fa-bus"></i><span><font color="white">Leave</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("LeaveStaff", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Add Leave</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-money"></i><span><font color="white">Pay Roll</font></span>
+                                        <ul>
+
+                                            <li>
+                                                <a href="@Url.Action("Paysliplist", "HumanResource")"><i class="fa fa-list"></i><font color="white">Payslip List</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-print"></i><span><font color="white">Award</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Award", "HumanResource")"><i class="icon-happy-content"></i><font color="white">Award</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tags"></i><span><font color="white">Expense</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Expense", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Expense</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-bell"></i><span><font color="white">Notice Board</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("NoticeBoard", "HumanResource")"><i class="fa fa-mail-reply-all"></i><font color="white">NoticeBoard</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-paper-plane-o"></i><span><font color="white">Message</font></span>
+                                        <ul>
+                                            <li>
+                                                <a href="@Url.Action("Message", "HumanResource")"><i class="fa fa-mail-reply "></i><font color="white">Message</font></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </nav>
+                                }
+                            }
+                            
+
+                        
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-block">
+
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        @RenderBody()
+        
+    </div>
+    <script>
+        var colors = {
+            "danger-color": "#e74c3c",
+            "success-color": "#81b53e",
+            "warning-color": "#f0ad4e",
+            "inverse-color": "#2c3e50",
+            "info-color": "#2d7cb5",
+            "default-color": "##428af5",
+            "default-light-color": "#cfd9db",
+            "purple-color": "#9D8AC7",
+            "mustard-color": "#d4d171",
+            "lightred-color": "#e15258",
+            "body-bg": "#f6f6f6"
+        };
+        var config = {
+            theme: "layout",
+            skins: {
+                "default": {
+                    "primary-color": "#16ae9f"
+                }
+            }
+        };
+    </script>
+    <script src="~/vendor/core/jquery.js"></script>
+    <script src="~/vendor/core/bootstrap.js"></script>
+    <script src="~/vendor/core/jquery.nicescroll.js"></script>
+    <script src="~/vendor/core/isotope.pkgd.js"></script>
+    <script src="~/vendor/core/jquery-ui.custom.js"></script>
+    <script src="~/Scripts/jquery.fine-uploader.min.js"></script>
+    <script src="~/Scripts/jquery.backstretch.min.js"></script>
+    <script src="~/themekit/_datepicker.js"></script>
+    <script type="text/javascript">
+        sidebaractive();
+        function sidebaractive() {
+
+            $('.sbar').removeClass('sbactive');
+            var id = '@ViewBag.page';
+            $('#' + id).addClass('sbactive');
+
+        };
+
+        $(function () {
+            $.fn.tkDatePicker = function () {
+
+                if (!this.length) return;
+
+                if (typeof $.fn.datepicker != 'undefined') {
+
+                    this.datepicker();
+
+                }
+
+            };
+            $('.datepicker').tkDatePicker();
+
+        });
+    </script>
+    @RenderSection("scripts", required: false)
+    <script src="~/Scripts/jquery.scrollbar.min.js"></script>
+</body>
+</html>

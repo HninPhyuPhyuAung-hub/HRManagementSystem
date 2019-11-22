@@ -1,0 +1,136 @@
+﻿@model HRManagementSystem.Models.Leave
+<!Doctype html>
+<html>
+<body>
+    @using (Html.BeginForm("UpdateLeave", "HumanResource", FormMethod.Post, new { @id = "SOFORM" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <div class="modal-header">
+
+                <h4 class="modal-title">Leave Request Form</h4>
+            </div>
+
+            <div class="panel panel-default bd0">
+                <div class="panel-body">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group col-md-12">
+                        <div class="col-md-2"><label>Name</label></div>
+                        <div class="col-md-10">
+                            @{
+                                var name = new List<SelectListItem>()
+                                {
+
+                                };
+                            }
+                            @Html.DropDownListFor(model => model.Name, name, new { @class = "form-control", name = "select", id = "name" })
+                            <input class="form-control hidden" id="namehidden" value="@Model.Name" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <div class="col-md-2"><label>Department</label></div>
+                        <div class="col-md-10">
+                            @{
+                                var department = new List<SelectListItem>()
+                                {
+
+                                };
+                            }
+                            @Html.DropDownListFor(model => model.Department, department, new { @class = "form-control", name = "select", id = "department" })
+                            <input class="form-control hidden" id="departmenthidden" value="@Model.Department" />
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <div class="col-md-2"><label>Position</label></div>
+                        <div class="col-md-10">
+                            @{
+                                var position = new List<SelectListItem>()
+                                {
+
+                                };
+                            }
+                            @Html.DropDownListFor(model => model.Position, position, new { @class = "form-control", name = "select", id = "position" })
+                            <input class="form-control hidden" id="positionhidden" value="@Model.Position" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label>Type Of Leave</label>
+                        </div>
+                        <div class="col-md-10">
+                            @{
+                                var reason = new List<SelectListItem>()
+                                                                                                                                                                                                                                                                                                                                                                                                                                                               {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                new SelectListItem {Value = "Sick Leave" , Text = "Sick Leave" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                new SelectListItem {Value = "Paid Leave" , Text = "Paid Leave" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                new SelectListItem {Value = "Unpaid Leave" , Text = "Unpaid Leave" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                new SelectListItem {Value = "Casual Leave" , Text = "Cascual Leave" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                };
+                            }
+                            @Html.DropDownListFor(model => model.Reason, reason, new { @class = "form-control", name = "select" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.LeaveReason, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.LeaveReason, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.LeaveReason, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.FromDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.FromDate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.ToDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.TextBoxFor(model => model.ToDate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Days, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-10">
+                            @Html.EditorFor(model => model.Days, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Days, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label>Supervisor Approve</label>
+                        </div>
+                        <div class="col-md-10">
+                            @Html.RadioButtonFor(model => model.SupervisorProve, "Approved", new { id = "yesCheck" })Approved
+                            @Html.RadioButtonFor(m => m.SupervisorProve, "Disapproved", new { id = "noCheck" })Disapproved
+                            @Html.ValidationMessageFor(model => model.SupervisorProve, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+
+
+
+                    @Html.HiddenFor(model => model.LeaveId)
+                    @Html.HiddenFor(model => model.EmpId)
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btnmain text-white" style="background-color:#0000ff;border-color:#0000ff" data-dismiss="modal">Close</button>
+                        <button type="submit" id="save" class="btn btn-sm btnmain text-white" style="background-color:#0000ff;border-color:#0000ff">Save</button>
+                    </div>
+                </div></div></div>
+                }
+
+
+             
+
+</body>
+</html>

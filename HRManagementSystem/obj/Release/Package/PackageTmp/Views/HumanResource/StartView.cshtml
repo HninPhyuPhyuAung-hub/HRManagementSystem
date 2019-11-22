@@ -1,0 +1,111 @@
+﻿@*<html>
+<head>
+    <style>
+        .photos img {
+            position: absolute;
+        }
+            .photos img:nth-of-type(1) {
+                left: 50px;
+                top: 50px;
+            }
+
+            .photos img:nth-of-type(2) {
+                left: 150px;
+                top: 100px;
+            }
+
+            .photos img:nth-of-type(3) {
+                left: 250px;
+                top: 50px;
+            }
+
+            .photos img:nth-of-type(4) {
+                left: 350px;
+                top: 150px;
+            }
+
+            .photos img:nth-of-type(5) {
+                left: 450px;
+                top: 50px;
+            }
+            .photos img:hover {
+                -webkit-transform: scale(1.5);
+                -moz-transform: scale(1.5);
+                -o-transform: scale(1.5);
+                transform: scale(1.5);
+                z-index: 10;
+            }
+
+            .photos img:hover {
+                -webkit-transform: rotate(380deg) scale(1.5);
+                -moz-transform: rotate(380deg) scale(1.5);
+                -o-transform: rotate(380deg) scale(1.5);
+                transform: rotate(380deg) scale(1.5);
+                z-index: 10;
+            }
+        .photos img {
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+        }
+        .photos img {
+            -webkit-transition: all 0.5s ease-out;
+            -moz-transition: all 0.5s ease-out;
+            -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+            padding: 10px 10px 30px 10px;
+            background: white;
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="row"></div>
+    <div class="col-md-1"></div>
+    <div class="col-md-11">
+        <div class="photos">
+            <img src="~/Image/hr1.jpg" />
+            <img src="~/Image/hr2.jpg" />
+            <img src="~/Image/hr3.jpg" />
+            <img src="~/Image/hr4.jpg" />
+
+            <img src="~/Image/hr5.jpg" />
+            <img src="~/Image/hr1.jpg" />
+            <img src="~/Image/hr2.jpg" />
+            <img src="~/Image/hr3.jpg" />
+            <img src="~/Image/hr4.jpg" />
+
+            <img src="~/Image/hr5.jpg" />
+        </div>
+    </div>
+    
+</body>
+</html>*@
+
+
+
+
+<html>
+<head>
+
+    <link href="~/themekit/css/all.css" rel="stylesheet" />
+</head>
+<style>
+    #animate-area {
+        width: 1400px;
+        height: 1200px;
+        background-image: url('../../Image/hr10.jpg');
+        background-position:0px 0px;
+        background-size:cover;
+        background-repeat: repeat-x;
+        animation: animatedBackground 10s linear infinite alternate;
+    }
+</style>
+<body>
+    <div id="animate-area">
+       @* <img src="~/Image/hr3.jpg" />*@
+       
+    </div>
+</body>
+</html>

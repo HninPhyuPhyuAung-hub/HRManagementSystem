@@ -1,0 +1,27 @@
+﻿@font-face {
+            font-family: 'mmfont';
+            src: url('../Content/font/mmrtext.ttf') format('truetype');
+}
+@font-face {
+            font-family: 'zgfont';
+            src: url('../Content/font/ZawgyiOne20071204.ttf') format('truetype');
+}
+@font-face {
+            font-family: 'monfont';
+            src: url('../Content/font/MON3Anonta1.ttf') format('truetype');
+}
+
+.mm3font{
+    font-family: 'mmfont' !important;
+    font-size:14px;
+}
+
+.zgfont{
+     font-family: 'zgfont' !important;
+    font-size:14px;
+}
+.monfont{
+     font-family: 'monfont' !important;
+    font-size:14px;
+}
+

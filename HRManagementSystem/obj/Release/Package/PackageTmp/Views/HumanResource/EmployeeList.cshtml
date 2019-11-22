@@ -1,0 +1,104 @@
+﻿@model HRManagementSystem.Models.EmployeePaging
+@using PagedList;
+@using PagedList.Mvc;
+
+@{ var photolocation = "/Image/dog.png"; }
+<div class="row">
+    <div class="col-md-2"></div>
+    @foreach (var item in Model.employeeList)
+    {
+        <div class="col-md-3" id="card-@item.EmpId">
+            <div class="custom-card">
+                <div class="text-center" style="padding-bottom:10px;">
+                    <img src="@if (item.Photo == null) { @photolocation } else { @item.Photo } " style="border-radius:50%;width:35%" />
+                </div>
+                <h4 class="text-center myanmar3font" style="padding-bottom:7px;">@item.Name </h4>
+                <div class="row" style="text-align:center">
+                    <a href="@Url.Action("Detail", "HumanResource",new { EmpId = @item.EmpId })" class="btn btn-sm btn-info" style="padding-left:17px;padding-right:17px;">View Detail</a>
+                    <a href="@Url.Action("Edit", "HumanResource",new { EmpId = @item.EmpId })" class="btn btn-sm btn-info" style="padding-left:17px;padding-right:17px;">Edit</a>
+                    <button type="button" class="btn btn-sm btn-info" style="padding-left:17px;padding-right:17px;" id="addreferrer-@item.EmpId" onclick="DeleteEmployee(this)" data-id="@item.EmpId" title="Edit"> Delete</button>
+
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+
+<div class="">
+    <div class="pagedList" style="text-align:center">
+        @Html.PagedListPager(Model.employeeList, page => Url.Action("EmployeeList", "HumanResource",
+        new { page }), PagedListRenderOptions.ClassicPlusFirstAndLast)
+    </div>
+</div>
+<div class="modal fade slide-down" id="DeleteModel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="v-cell">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Confirm</h4>
+                </div>
+                <div class="modal-body">
+                    Are you sure want to delete?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" onclick="DelEmployee()">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    var ID;
+
+    <script type="text/javascript">
+
+    function DeleteEmployee(e) {
+        ID = $(e).attr('data-id');
+
+        $('#DeleteModel').modal('show');
+
+    }
+
+    function DelEmployee() {
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("DeleteEmployee", "HumanResource")',
+                data: { EmpId: ID },
+                beforeSend: function () {
+                    $('#DeleteModel').modal('hide');
+                },
+                success: function (myData) {
+                    if (myData == "Success") {
+                        $('#card-' + ID).empty();
+                        @*$.ajax({
+                            cache: false,
+                            url:'@Url.Action("EmployeeList", "HumanResource")'
+                        })*@
+
+                    }
+                },
+
+                complete: function () {
+                     @*$.ajax({
+                            cache: false,
+                            url:'@Url.Action("EmployeeList", "HumanResource")'
+                        })*@
+                }
+            });
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+}
+

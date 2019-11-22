@@ -1,0 +1,76 @@
+﻿@font-face {
+    font-family: 'mm3web';
+    src: url('font/mm3web.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'ZawgyiOne20071204';
+    src: url('font/ZawgyiOne20071204.ttf') format('truetype');
+}
+.mm3font{
+     font-family: 'mm3web' !important;
+    font-size:30px;
+}
+
+
+.zgyifont{
+     font-family: 'ZawgyiOne20071204' !important;
+    font-size:30px;
+}
+.fz15{
+    font-size:40px;
+}
+.divider-sm{
+    margin-top:90px;
+}
+.divider-xs{
+    margin-top:55px;
+}
+.number{
+    font-size:60px;
+    color:#EA4C89;
+    line-height:1 !important;
+}
+.bg{
+    background-color:#F2F2F2;
+}
+
+.star{
+    position:center;
+   margin:30px 0px 30px 0px;
+  transform: translate(80px);
+}
+.v-center{
+ position: absolute;
+ left: 0;
+ right: 0; 
+ transform: translate(0, -50%);
+}
+.icon{
+     position:center; 
+  transform: translate(50px);
+}
+.text{
+   position:absolute; 
+      
+  transform: translate(100px);
+}
+#wrapper{
+    padding:0 !important;
+    position:relative !important;
+    height:100vh !important;
+}
+.trophy-icon{
+     position:absolute !important;
+  bottom:0 !important;
+  padding:0 20px !important;
+}
+.star-icon{
+    width:100%;
+    padding: 0 100px;
+}
+
+@media (min-width: 1200px){
+    .star-icon{
+        width: 10% !important;
+    }
+}

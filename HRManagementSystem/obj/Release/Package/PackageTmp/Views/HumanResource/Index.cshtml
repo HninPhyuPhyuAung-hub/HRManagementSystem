@@ -1,0 +1,334 @@
+﻿@model HRManagementSystem.Models.Employees
+<!Doctype html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+    @using (Html.BeginForm("Index", "HumanResource", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h1><b>Employee Form</b></h1>
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="col-md-12">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-md-1"></div>
+                        @Html.LabelFor(model => model.Sex, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="col-md-9">
+                            @{
+                                var sex = new List<SelectListItem>()
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            new SelectListItem {Value = "Male" , Text = "Male" },
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            new SelectListItem {Value = "Female" , Text = "Female" },
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            };
+                            }
+                            @Html.DropDownListFor(model => model.Sex, sex, new { @class = "form-control", name = "select" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.PhoneNumber, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EmailAddress, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.EmailAddress, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.EmailAddress, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.NRC, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.NRC, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.NRC, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Birthday, htmlAttributes: new { @class = "control-label col-md-3" })
+
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(model => model.Birthday, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Bankacc, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Bankacc, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Bankacc, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.MaritalStatus, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-8">
+                            @Html.RadioButtonFor(m => m.MaritalStatus, "Married", new { id = "yesCheck", onclick = "javascript:yesnoCheck();" })Married
+                            @Html.RadioButtonFor(m => m.MaritalStatus, "Single", new { id = "noCheck", onclick = "javascript:yesnoCheck();" })Single
+                            @Html.ValidationMessageFor(model => model.MaritalStatus, "", new { @class = "text-danger" })
+                            @*Married <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck" value="married">
+                                Single <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck" value="single"><br>*@
+                        </div>
+
+                    </div>
+                    <div class="form-group" id="spousename" style="visibility:hidden">
+                        @Html.LabelFor(model => model.SpouseName, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.SpouseName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.SpouseName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group" id="spousephone" style="visibility:hidden">
+                        @Html.LabelFor(model => model.SpousePh, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.SpousePh, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.SpousePh, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group" id="contactname" style="visibility:hidden">
+                        @Html.LabelFor(model => model.ContactName, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.ContactName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.ContactName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group" id="contactph" style="visibility:hidden">
+                        @Html.LabelFor(model => model.ContactPh, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.ContactPh, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.ContactPh, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Education, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Education, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Education, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Position, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Position, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Position, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Role, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-8">
+                            @Html.RadioButtonFor(m => m.Role, "Manager", new { id = "yesCheck" })Manager
+                            @Html.RadioButtonFor(m => m.Role, "Other", new { id = "noCheck" })Other
+                            @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
+
+
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Department, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @{
+                                var state = new List<SelectListItem>()
+                                {
+
+                                };
+                            }
+
+                            <select name="Department" class="form-control statehidden" id="state" value="state"></select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Salary, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Salary, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Salary, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.Manager, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.EditorFor(model => model.Manager, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Manager, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            @Html.TextBoxFor(model => model.StartDate, "{0:yyyy-MM-dd}", new { @type = "date", @class = "form-control" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-md-3" style="padding-left:90px"><label> Upload Photo</label></div>
+
+                        <div class="col-md-9">
+
+
+                            <p>  <img id="image" height="120px" width="150px" style="border-radius:70%;width:35%" src="~/Image/photo_placeholder.png" /></p>
+
+                            <p> <input type="file" name="image" accept="image/*" onchange="preview_image(event)" /></p>
+                        </div>
+                    </div>
+                    <br />
+                    @*<div class="editor-field">
+                            <input id="ImagePath"
+                                   type="file" name="file" accept="image/* onchange="readURL(this)">
+                            <img id="outputimage" />
+                        </div>*@
+
+
+                    <div class="form-group">
+                        <div class="col-md-3" style="padding-left:85px">
+                            <label> Upload Resume</label>
+                        </div>
+                        <div class="col-md-9">
+                            @Html.TextBox("Resume", "", new { type = "file", accept = ".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" })<br />
+                            @Html.ValidationMessageFor(model => model.Resume, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.IsContract, htmlAttributes: new { @class = "control-label col-md-3" })
+                        <div class="col-md-9">
+                            <div class="flex-m w-full p-b-33">
+                                <div class="contact100-form-checkbox">
+                                    <input type="checkbox" value="true" name="IsContract" />
+                                    @*   <input type="checkbox" checked="true" name="IsContract"  />*@
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <br /><br />
+                    <div class="form-group">
+
+                        <input type="submit" value="Create" class="btn btn-primary" style="color:black" id="Apply" />
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    }
+
+    @section scripts{
+        <script type="text/javascript">
+            $(function () {
+                deplist();
+            });
+
+            function deplist() {
+                  $.ajax({
+                cache: false,
+                url: '@Url.Action("getDepartment", "HumanResource")',
+
+                beforeSend: function () {
+                  
+                },
+                success: function (result) {
+
+                    if (result != null) {
+                        $("#state").empty();
+                        $("#state").append($('<option value=""> -- Choose -- </option>'));
+                        for (i = 0; i < result.length; i++) {
+                            $('#state').append($('<option value="' + result[i].Value + '">' + result[i].Value + '</option>>'));
+                        }
+                    }
+                    $('#state').val(awardemployee);
+                  //  console.log(result);
+                    //$('#state').val($('.statehidden').val());
+
+                },
+
+                complete: function () {
+
+
+
+                  
+                }
+            });
+        }
+
+           
+            function preview_image(event) {
+                document.getElementById('image').style.display = "block";
+                var reader = new FileReader();
+                reader.onload = function () {
+                    var output = document.getElementById('image');
+                    output.src = reader.result;
+                }
+                reader.readAsDataURL(event.target.files[0]);
+            }
+
+            function yesnoCheck() {
+
+                if (document.getElementById('yesCheck').checked) {
+
+                    document.getElementById('spousename').style.visibility = 'visible';
+                    document.getElementById('spousephone').style.visibility = 'visible';
+                    document.getElementById('contactname').style.visibility = 'hidden';
+                    document.getElementById('contactph').style.visibility = 'hidden';
+                }
+                else {
+                    document.getElementById('spousename').style.visibility = 'hidden';
+                    document.getElementById('spousephone').style.visibility = 'hidden';
+                    document.getElementById('contactname').style.visibility = 'visible';
+                    document.getElementById('contactph').style.visibility = 'visible';
+                }
+            }
+
+        </script>
+
+    }
+</body>
+</html>
+
+@*Yes <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck">
+    No <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck"><br>
+    <div id="ifYes" style="visibility:hidden">
+        If yes, explain: <input type='text' id='yes' name='yes'><br>
+        What can we do to accommodate you?  <input type='text' id='acc' name='acc'>
+    </div>
+
+    function yesnoCheck() {
+        if (document.getElementById('yesCheck').checked) {
+            document.getElementById('ifYes').style.visibility = 'visible';
+        }
+        else document.getElementById('ifYes').style.visibility = 'hidden';
+
+    }*@

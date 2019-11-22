@@ -1,0 +1,1427 @@
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Compression.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
+E:\HRManagementSystem\HRManagementSystem\bin\AutoMapper.Net4.dll
+E:\HRManagementSystem\HRManagementSystem\bin\ApplicationInsights.config
+E:\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll.config
+E:\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll
+E:\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.pdb
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe.config
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.rsp
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe.config
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.rsp
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.AppContext.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Console.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Pipes.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Claims.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Threading.Thread.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.ValueTuple.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe.config
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.rsp
+E:\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.dll
+E:\HRManagementSystem\HRManagementSystem\bin\AutoMapper.dll
+E:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.dll
+E:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.ApplicationInsights.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\HRManagementSystem\HRManagementSystem\bin\MvcPaging.dll
+E:\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.dll
+E:\HRManagementSystem\HRManagementSystem\bin\Owin.dll
+E:\HRManagementSystem\HRManagementSystem\bin\PagedList.dll
+E:\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\HRManagementSystem\HRManagementSystem\bin\WebGrease.dll
+E:\HRManagementSystem\HRManagementSystem\bin\AutoMapper.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.pdb
+E:\HRManagementSystem\HRManagementSystem\bin\PagedList.xml
+E:\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.pdb
+E:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.xml
+E:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
+E:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
+E:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
+E:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
+E:\HRManagementSystem\HRManagementSystem\bin\Rotativa.dll
+E:\HRManagementSystem\HRManagementSystem\bin\itextsharp.dll
+E:\HRManagementSystem\HRManagementSystem\bin\itextsharp.xmlworker.dll
+E:\HRManagementSystem\HRManagementSystem\bin\itextsharp.xml
+E:\HRManagementSystem\HRManagementSystem\bin\RazorEngine.dll
+E:\HRManagementSystem\HRManagementSystem\bin\RazorEngine.xml
+E:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Win32.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\netstandard.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.AppContext.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Concurrent.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Collections.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Collections.NonGeneric.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Specialized.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.EventBasedAsync.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.TypeConverter.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Console.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Data.Common.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Contracts.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Debug.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.FileVersionInfo.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Process.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.StackTrace.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tools.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TraceSource.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tracing.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Drawing.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Dynamic.Runtime.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Calendars.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Globalization.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Extensions.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.ZipFile.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.DriveInfo.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Watcher.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.IsolatedStorage.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.MemoryMappedFiles.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.Pipes.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.IO.UnmanagedMemoryStream.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Linq.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Linq.Expressions.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Linq.Parallel.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Linq.Queryable.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.Http.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.NameResolution.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.NetworkInformation.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.Ping.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.Requests.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.Security.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.Sockets.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.WebHeaderCollection.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.Client.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.ObjectModel.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Reflection.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Extensions.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Resources.Reader.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Resources.ResourceManager.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Resources.Writer.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Extensions.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Handles.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Numerics.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Formatters.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Json.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Xml.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Claims.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Algorithms.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Csp.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Encoding.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Primitives.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.X509Certificates.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.Principal.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Security.SecureString.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.Extensions.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Text.RegularExpressions.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Overlapped.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.Parallel.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Thread.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.ThreadPool.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Timer.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.ValueTuple.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Xml.ReaderWriter.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XDocument.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlDocument.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlSerializer.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.XDocument.dll
+E:\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.dll
+E:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.dll
+E:\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.xml
+E:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.xml
+D:\HRManagementSystem\HRManagementSystem\bin\ApplicationInsights.config
+D:\HRManagementSystem\HRManagementSystem\bin\AutoMapper.Net4.dll
+D:\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll.config
+D:\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll
+D:\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.pdb
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe.config
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.rsp
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe.config
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.rsp
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.AppContext.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Console.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Compression.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Pipes.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Claims.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Threading.Thread.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.ValueTuple.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe.config
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.rsp
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Win32.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\netstandard.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.AppContext.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Concurrent.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Collections.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Collections.NonGeneric.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Specialized.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.EventBasedAsync.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.TypeConverter.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Console.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Data.Common.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Contracts.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Debug.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.FileVersionInfo.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Process.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.StackTrace.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tools.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TraceSource.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tracing.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Drawing.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Dynamic.Runtime.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Calendars.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Globalization.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Extensions.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.ZipFile.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.DriveInfo.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Watcher.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.IsolatedStorage.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.MemoryMappedFiles.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.Pipes.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.IO.UnmanagedMemoryStream.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Linq.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Linq.Expressions.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Linq.Parallel.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Linq.Queryable.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.Http.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.NameResolution.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.NetworkInformation.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.Ping.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.Requests.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.Security.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.Sockets.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.WebHeaderCollection.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.Client.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.ObjectModel.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Reflection.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Extensions.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Resources.Reader.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Resources.ResourceManager.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Resources.Writer.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Extensions.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Handles.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Numerics.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Formatters.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Json.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Xml.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Claims.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Algorithms.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Csp.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Encoding.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Primitives.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.X509Certificates.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.Principal.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Security.SecureString.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.Extensions.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Text.RegularExpressions.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Overlapped.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.Parallel.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Thread.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.ThreadPool.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Threading.Timer.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.ValueTuple.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Xml.ReaderWriter.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XDocument.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlDocument.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlSerializer.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.XDocument.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.dll
+D:\HRManagementSystem\HRManagementSystem\bin\AutoMapper.dll
+D:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.dll
+D:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\HRManagementSystem\HRManagementSystem\bin\itextsharp.dll
+D:\HRManagementSystem\HRManagementSystem\bin\itextsharp.xmlworker.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\HRManagementSystem\HRManagementSystem\bin\MvcPaging.dll
+D:\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Owin.dll
+D:\HRManagementSystem\HRManagementSystem\bin\PagedList.dll
+D:\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.dll
+D:\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.dll
+D:\HRManagementSystem\HRManagementSystem\bin\RazorEngine.dll
+D:\HRManagementSystem\HRManagementSystem\bin\Rotativa.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.dll
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\HRManagementSystem\HRManagementSystem\bin\WebGrease.dll
+D:\HRManagementSystem\HRManagementSystem\bin\AutoMapper.xml
+D:\HRManagementSystem\HRManagementSystem\bin\itextsharp.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.pdb
+D:\HRManagementSystem\HRManagementSystem\bin\PagedList.xml
+D:\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.xml
+D:\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.xml
+D:\HRManagementSystem\HRManagementSystem\bin\RazorEngine.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.pdb
+D:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.xml
+D:\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
+D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
+D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
+D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
+D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
+D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\ApplicationInsights.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\AutoMapper.Net4.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.rsp
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.rsp
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\netstandard.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.AppContext.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Concurrent.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.NonGeneric.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Specialized.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Console.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Data.Common.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Contracts.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Debug.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Process.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tools.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tracing.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Drawing.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Dynamic.Runtime.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Calendars.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Globalization.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.IsolatedStorage.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.Pipes.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.Expressions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.Parallel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.Queryable.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Http.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.NameResolution.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.NetworkInformation.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Ping.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Requests.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Security.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Sockets.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.Client.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ObjectModel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Reflection.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Resources.Reader.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Resources.ResourceManager.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Resources.Writer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Handles.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Numerics.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Claims.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Principal.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.SecureString.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Text.RegularExpressions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Overlapped.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Thread.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.ThreadPool.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Timer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ValueTuple.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.ReaderWriter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlSerializer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\AutoMapper.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\itextsharp.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\itextsharp.xmlworker.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\MvcPaging.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Owin.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\RazorEngine.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Rotativa.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\WebGrease.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\AutoMapper.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\itextsharp.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\RazorEngine.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\ApplicationInsights.config
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\AutoMapper.Net4.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll.config
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.pdb
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe.config
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.rsp
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe.config
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.rsp
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.AppContext.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Console.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Compression.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Pipes.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Claims.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Threading.Thread.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.ValueTuple.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe.config
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.rsp
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Win32.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\netstandard.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.AppContext.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Concurrent.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.NonGeneric.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Specialized.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.EventBasedAsync.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.TypeConverter.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Console.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Data.Common.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Contracts.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Debug.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.FileVersionInfo.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Process.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.StackTrace.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tools.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TraceSource.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tracing.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Drawing.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Dynamic.Runtime.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Calendars.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Globalization.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Extensions.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.ZipFile.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.DriveInfo.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Watcher.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.IsolatedStorage.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.MemoryMappedFiles.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.Pipes.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.UnmanagedMemoryStream.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.Expressions.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.Parallel.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.Queryable.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Http.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.NameResolution.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.NetworkInformation.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Ping.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Requests.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Security.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Sockets.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.WebHeaderCollection.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.Client.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.ObjectModel.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Reflection.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Extensions.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Resources.Reader.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Resources.ResourceManager.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Resources.Writer.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Extensions.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Handles.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Numerics.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Formatters.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Json.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Xml.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Claims.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Algorithms.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Csp.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Encoding.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Primitives.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.X509Certificates.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Principal.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.SecureString.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.Extensions.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Text.RegularExpressions.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Overlapped.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.Parallel.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Thread.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.ThreadPool.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Timer.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.ValueTuple.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.ReaderWriter.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XDocument.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlDocument.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlSerializer.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.XDocument.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\AutoMapper.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\itextsharp.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\itextsharp.xmlworker.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.ApplicationInsights.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\MvcPaging.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Owin.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\RazorEngine.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Rotativa.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\WebGrease.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\AutoMapper.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\itextsharp.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.pdb
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\RazorEngine.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.pdb
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
+D:\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
+D:\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
+D:\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
+D:\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\AutoMapper.Net4.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\ApplicationInsights.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.rsp
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.rsp
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\netstandard.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.AppContext.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Concurrent.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.NonGeneric.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Specialized.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Console.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Data.Common.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Contracts.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Debug.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Process.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tools.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tracing.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Drawing.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Dynamic.Runtime.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Calendars.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Globalization.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.IsolatedStorage.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.Pipes.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.Expressions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.Parallel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Linq.Queryable.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Http.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.NameResolution.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.NetworkInformation.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Ping.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Requests.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Security.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.Sockets.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.Client.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.ObjectModel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Reflection.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Resources.Reader.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Resources.ResourceManager.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Resources.Writer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Handles.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Numerics.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Claims.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.Principal.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Security.SecureString.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Text.RegularExpressions.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Overlapped.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Thread.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.ThreadPool.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Threading.Timer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.ValueTuple.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.ReaderWriter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlSerializer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\AutoMapper.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\itextsharp.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\itextsharp.xmlworker.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\MvcPaging.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Owin.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\RazorEngine.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Rotativa.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\WebGrease.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\AutoMapper.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\itextsharp.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\RazorEngine.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
+C:\Users\Hnin Phyu Phyu Aung\Desktop\sfds\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\ApplicationInsights.config
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\AutoMapper.Net4.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll.config
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\HRManagementSystem.pdb
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csc.rsp
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.exe.config
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\csi.rsp
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Console.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Compression.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.IO.Pipes.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Claims.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Threading.Thread.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.ValueTuple.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Win32.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\netstandard.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.AppContext.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Concurrent.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.NonGeneric.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Specialized.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Console.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Data.Common.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Contracts.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Debug.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Process.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.StackTrace.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tools.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.TraceSource.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.Tracing.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Drawing.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Dynamic.Runtime.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Calendars.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Globalization.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Globalization.Extensions.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.Compression.ZipFile.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.IsolatedStorage.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.Pipes.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.Expressions.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.Parallel.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Linq.Queryable.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Http.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.NameResolution.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.NetworkInformation.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Ping.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Requests.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Security.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.Sockets.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.WebHeaderCollection.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.Client.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Net.WebSockets.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ObjectModel.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Reflection.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Extensions.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Reflection.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Resources.Reader.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Resources.ResourceManager.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Resources.Writer.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Extensions.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Handles.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Numerics.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Json.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Claims.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Csp.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.Principal.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Security.SecureString.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Text.Encoding.Extensions.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Text.RegularExpressions.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Overlapped.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Thread.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.ThreadPool.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Threading.Timer.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.ValueTuple.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.ReaderWriter.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XDocument.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlDocument.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XmlSerializer.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Xml.XPath.XDocument.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\AutoMapper.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\itextsharp.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\itextsharp.xmlworker.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\MvcPaging.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Owin.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\RazorEngine.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Rotativa.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\WebGrease.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\AutoMapper.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\itextsharp.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\MvcPaging.ObjectMapper.pdb
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\PagedList.Mvc.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\PhoneNumbers.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\RazorEngine.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Collections.Immutable.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.Razor.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
+C:\Users\HninPhyuPhyuAung\Desktop\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb

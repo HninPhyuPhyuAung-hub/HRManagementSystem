@@ -1,0 +1,42 @@
+﻿@model HRManagementSystem.Models.Message
+
+<div>
+    <h3>Send Message</h3>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <label>From</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.sendmail)
+        </dd>
+
+        <dt>
+            <label>To</label>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            <label>Subject</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject)
+        </dd>
+        <dt>
+           <label>Message</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.message)
+        </dd>
+
+
+
+
+
+
+    </dl>
+</div>
+

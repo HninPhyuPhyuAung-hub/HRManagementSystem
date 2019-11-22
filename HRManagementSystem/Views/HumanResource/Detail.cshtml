@@ -1,0 +1,200 @@
+﻿@model HRManagementSystem.Models.Employees
+
+
+<style>
+    body {
+        background-color: lightgray
+    }
+
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #999999;
+            color: white;
+            text-align: right;
+        }
+</style>
+@{ var photolocation = "/Image/dog.png"; }
+<div class="row">
+    <div class="container-fluid">
+
+        <div class="text-left">
+            <img src="@if (Model.Photo == null) { @photolocation } else { @Model.Photo } " style="border-radius:20%;width:20%" align="left" hspace="5" /> 
+
+            <span class="v-bottom" style="font-size:18px;font-weight:500;color:#428af5; padding-right:800px;">
+                @Model.Name
+            </span>
+
+            <button class="btn btn-sm btnmain text-white" style="background-color:#4286f4;border-color:#adbdd6" onclick="location.href='@Url.Action("Edit", "HumanResource",new { EmpId = @Model.EmpId })';return false;">Edit</button>
+
+            <button type="button" class="btn btn-sm btnmain text-white" style="background-color:#4286f4;border-color:#adbdd6" id="addreferrer-@Model.EmpId" onclick="DeleteEmployee(this)" data-id="@Model.EmpId" title="Edit"> Delete</button>
+            <br />
+            <font size="3px" style="color:blue;margin-top:auto">   @Model.Position </font><br />
+            <font size="2px" style="color:blue">
+                <i class="fa fa-map-marker" style="font-size:24px"></i> @Model.Address
+            </font>
+        </div>
+    </div>
+
+</div>
+<br />
+<div class="row">
+
+    <div class="col-md-6">
+        <div class="container-fluid">
+            <div class="custom-card">
+                <table id="customers">
+                    <tr><h4>Personal Information</h4></tr>
+                    <tr>
+                        <th>
+                            <div style="float:left;width:49%;text-align:left;">
+                                NRC
+                            </div>
+
+                            @Model.NRC
+
+                        </th>
+                    </tr>
+                    <tr> <th><div style="float:left;width:49%;text-align:left;">Email</div>@Model.EmailAddress</th></tr>
+                    <tr> <th><div style="float:left;width:49%;text-align:left;">Telephone</div> @Model.PhoneNumber</th></tr>
+                    <tr> <th><div style="float:left;width:49%;text-align:left;">Gender</div> @Model.Sex</th></tr>
+                    <tr>
+                        <th><div style="float:left;width:49%;text-align:left;">Marital Status</div>  @Model.MaritalStatus</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="custom-card">
+                <table id="customers">
+                    <tr><h4>Emergency Information</h4></tr>
+                    @if (Model.MaritalStatus == "Single")
+                    {
+                        <tr><th><div style="float:left;width:49%;text-align:left;">Contact Person</div> @Model.ContactName</th></tr>
+                        <tr><th><div style="float:left;width:49%;text-align:left;">Contact PhoneNumber</div> @Model.ContactPh</th></tr>
+                    }
+                    else
+                    {
+                        <tr><th><div style="float:left;width:49%;text-align:left;">Contact Person </div>@Model.SpouseName</th></tr>
+
+                        <tr><th><div style="float:left;width:49%;text-align:left;">Contact PhoneNumber</div> @Model.SpousePh</th></tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="container-fluid">
+            <div class="custom-card">
+                <table id="customers">
+                    <tr><h4>Employee Information</h4></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Employee Of</div> @Model.Manager</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Employee Id</div> @Model.EmpId</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Date Hired</div> @Model.StartDate</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Department</div> @Model.Department</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Position</div> @Model.Position</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Education</div> @Model.Education</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">Salary</div> @Model.Salary</th></tr>
+                    <tr><th><div style="float:left;width:49%;text-align:left;">IsContract</div> @Model.IsContract</th></tr>
+                    <tr>
+                        <th>
+                            <div style="float:left;width:49%;text-align:left;">Resume</div>
+                            <a href="@Url.Action("Download", "HumanResource",new { FileName = @Model.Resume.ToString() })" class="btn btn-primary">
+                                @*@Html.ActionLink("Download", "Download", new { FileName = @Model.Resume.ToString() })*@ Download <i class="fa fa-download"></i>
+                            </a>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="modal fade slide-down" id="DeleteModel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="v-cell">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Confirm</h4>
+                </div>
+                <div class="modal-body">
+                    Are you sure want to delete?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" onclick="DelEmployee()">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    var ID;
+
+    <script type="text/javascript">
+
+    function DeleteEmployee(e) {
+        ID = $(e).attr('data-id');
+
+        $('#DeleteModel').modal('show');
+
+    }
+
+    function DelEmployee() {
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("DeleteEmployee", "HumanResource")',
+                data: { EmpId: ID },
+                beforeSend: function () {
+                    $('#DeleteModel').modal('hide');
+                },
+                success: function (myData) {
+                    if (myData == "Success") {
+                         var url = '@Url.Action("EmployeeList", "HumanResource")';
+                        window.location.href = url;
+                       
+
+                    }
+                },
+               
+                complete: function () {
+                    //e.preventDefault();
+                }
+            });
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+}

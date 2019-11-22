@@ -1,0 +1,297 @@
+﻿
+
+
+
+@section css{
+    <link href="~/Content/custom.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-10">
+        <div class="custom-card">
+            <div class="row">
+                <div class="col-md-offset-0">
+
+                    <span class="v-bottom" style="font-size:18px;font-weight:500;color:#428af5; padding-right:1220px;">
+                        <h1>NoticeBoard</h1>
+                    </span>
+                    @if (ViewBag.memberRole != "Admin")
+                    {
+                        <button id="addnotice" type="button" class="btn btn-primary btn-sm btn-rounded btnmain" style="visibility:hidden" onclick="InsertNotice()" title="Add New"><i class="fa fa-plus"></i> Add New Notice</button>
+                    }
+                    else
+                    {
+                        <button id="addnotice" type="button" class="btn btn-primary btn-sm btn-rounded btnmain" style="background-color:#0000ff;border-color:#47d147;border-color:black" onclick="InsertNotice()" title="Add New"><i class="fa fa-plus"></i> Add New Notice</button>
+                    }
+
+                </div>
+            </div>
+            <br />
+            <div class="container-fluid">
+                <table id="" class="notice table table-bordered table-striped table-hover" width="100%">
+                    <thead>
+
+                        <tr>
+                            <th>Date</th>
+                            <th>Notice Title</th>
+                            <th>Description</th>
+                            <th>Status</th>
+                            @if (ViewBag.memberRole != "Admin")
+                            {
+                                <th style="visibility:hidden"></th>
+                                <th style="visibility:hidden">Edit</th>
+                                <th style="visibility:hidden">Delete</th>
+                            }
+                            else
+                            {
+                                <th></th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            }
+
+
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade slide-down" id="DeleteNoticeModel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="v-cell">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Confirm</h4>
+                </div>
+                <div class="modal-body">
+                    Are you sure want to delete?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" onclick="DelNotice()">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="noticeMD">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modalHeaderSample">Add Notice</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <br />
+
+
+            <div class="modal-body" id="modalBodySample">
+                @model HRManagementSystem.Models.notice
+                @using (Html.BeginForm("AddNotice", "HumanResource", FormMethod.Post, new { @id = "SOFORM" }))
+                {
+                    @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label for="last_date">Date</label>
+                    @Html.TextBoxFor(model => model.date, "{0:yyyy-MM-dd}", new { @id = "date", @type = "date", @class = "form-control" })
+                </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Notice Title</label>
+                                <input type="text" class="form-control" id="title" name="Title" required="">
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Description</label>
+                                <input type="text" class="form-control" id="description" name="description" required="">
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="form-group" id="status">
+                        <label>Status</label>
+                        <select name="Status" class="form-control selectboxit">
+                            <option value="Active">Active</option>
+                            <option value="InActive">InActive</option>
+                            
+                        </select>
+                    </div>
+
+                    <div class=" form-group text-center">
+                        <button class="btn btn-primary mt-2 w-50" style="" type="submit">Submit</button>
+                    </div>
+                    <input type="hidden" name="ID" value="0" id="noticeid" />
+                }
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/themekit/Moment.min.js"></script>
+    <script src="~/themekit/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+    <script type="text/javascript">
+        var role = "@ViewBag.memberRole";
+        var ID;
+        $(function () {
+            noticelist();
+        });
+
+
+        function noticelist() {
+            var SetData = $(".notice tbody").empty();
+
+            if ($.fn.DataTable.isDataTable('.notice')) {
+
+                $('.notice').DataTable().clear().destroy();
+
+            }
+            if (role != "Admin") {
+                $('.notice').DataTable({
+
+                    "ajax": {
+                        "url": "/HumanResource/NoticeList",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+                        {
+                            "data": "date", render: function (data, type, row) {
+                                if (type === "sort" || type === "type") {
+                                    return data;
+                                }
+                                return moment(data).format("MM-DD-YYYY");
+                            }
+                        },
+                        { "data": "title" },
+                        { "data": "description" },
+                        { "data": "status" },
+
+                        { className: "hide", data: 'ID' },
+                        { className: "hide", data: 'ID' },
+                        { className: "hide", data: 'ID' }
+                       
+                    ]
+
+                });
+            }
+            else {
+                $('.notice').DataTable({
+
+                    "ajax": {
+                        "url": "/HumanResource/NoticeList",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+                        {
+                            "data": "date", render: function (data, type, row) {
+                                if (type === "sort" || type === "type") {
+                                    return data;
+                                }
+                                return moment(data).format("MM-DD-YYYY");
+                            }
+                        },
+                        { "data": "title" },
+                        { "data": "description" },
+                        { "data": "status" },
+
+                        { className: "hide", data: 'ID' },
+                        {
+
+                            "mRender": function (data, type, row) {
+                                return '<a href="#" class="editor_remove" onclick="Editnotice(' + row.ID + ', \'' + row.title + '\' , \'' + row.description + ' \', \'' + row.status + '\', \'' + row.date + '\')">Edit</a>'
+
+
+                            }
+                        }, {
+
+                            "mRender": function (data, type, row) {
+                                return '<a href="#" class="editor_remove" onclick="Deletenotice(' + row.ID + ')">Delete</a>'
+
+
+                            }
+                        }
+
+                    ]
+
+                });
+            }
+            
+        }
+        function Editnotice(Id, Title, descriptiion,status,date) {
+
+
+            //alert(Id);
+            //alert(Title);
+            //alert(descriptiion);
+            //alert(status);
+            //alert(date);
+            date = moment(date).format("YYYY-MM-DD");
+            $('#noticeid').val(Id);
+            $('#title').val(Title);
+            $('#status').val(status);
+            $('#description').val(descriptiion);
+
+            $('#date').val(date);
+            $('#noticeMD').modal('show');
+
+        }
+        function InsertNotice() {
+            $('#noticeid').val(null);
+            $('#title').val(null);
+            $('#status').val(null);
+            $('#description').val(null);
+
+            $('#date').val(null);
+            $('#noticeMD').modal('show');
+        }
+        function Deletenotice(Id) {
+            ID = Id;
+            $('#DeleteNoticeModel').modal('show');
+        }
+
+
+        function DelNotice() {
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("DeleteNotice", "HumanResource")',
+                data: { ID: ID },
+                beforeSend: function () {
+                    $('#DeleteNoticeModel').modal('hide');
+                },
+                success: function (myData) {
+
+
+                },
+
+                complete: function () {
+                    noticelist();
+                }
+            });
+        }
+    </script>
+}

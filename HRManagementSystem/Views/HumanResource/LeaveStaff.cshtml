@@ -1,0 +1,496 @@
+﻿
+@section css{
+    <link href="~/Content/custom.css" rel="stylesheet" />
+}
+<div class="custom-card">
+    <div class="row">
+        <div class="col-md-offset-0">
+
+            <span class="v-bottom" style="font-size:18px;font-weight:500;color:#428af5; padding-right:1080px;">
+                <h1>Leave Statement</h1>
+            </span>
+
+            <button id="addnotice" type="button" class="btn btn-primary btn-sm btn-rounded btnmain" style="background-color:#0000ff;border-color:#47d147;border-color:black" onclick="InsertLeave()" title="Add New"><i class="fa fa-plus"></i> Send Leave Request</button>
+        </div>
+    </div>
+    <br />
+    <div class="container-fluid">
+        <table id="" class="leavedetail table table-bordered table-striped table-hover" width="100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Position</th>
+                    <th>Earned Leave</th>
+                    <th>Taken Leave</th>
+                    <th>Reamining Leave</th>
+                    <th></th>
+                    <th>Detail</th>
+                </tr>
+            </thead>
+
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<div class="modal fade" id="detailMD" tabindex="-1" role="dialog" aria-labelledby="detailMD-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:#0000ff">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="detailMD-label" style="color:#fff">Detail</h4>
+
+
+            </div>
+            <br /><br />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="input-group-btn">
+
+                            <button type="button" class="btn btn-primary" style="background:palevioletred;background-color:blue" #0000ff" onclick="GroupingDetail(null,null,'M')">Month</button>
+                            <button type="button" class="btn btn-primary" style="background:palevioletred;background-color:blue" onclick="GroupingDetail(null,null,'Y')">Year</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="form-inline input-group dateform">
+                            <div class="form-group">
+                                <input type="text" class="form-control datepicker" placeholder="From" id="from" style="width:150px;">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control datepicker" placeholder="To" id="to" style="width:150px;">
+                            </div>
+                            <div class="input-group-btn form-group">
+                                <button onclick="getdate()" class="btn btn-primary btnmain" type="button" style="background-color:blue"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="detailchart" style="height:400px"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="leavedetaillist" class="table table-bordered table-striped table-hover" width="75%">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Department</th>
+                                    <th>Position</th>
+                                    <th>Leave Type</th>
+                                    <th>Leave Reason</th>
+                                    <th>From Date</th>
+                                    <th>To Date</th>
+                                    <th>Days</th>
+                                    <th>Supervisor Approve</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btnmain" style="background-color:blue" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="modal fade slide-down" id="DeleteNoticeModel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="v-cell">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Confirm</h4>
+                </div>
+                <div class="modal-body">
+                    Are you sure want to delete?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" onclick="DelNotice()">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="noticeMD">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modalHeaderSample">Send Leave Request</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <br />
+
+
+            <div class="modal-body" id="modalBodySample">
+
+                @using (Html.BeginForm("SendEmailToStaff", "HumanResource", FormMethod.Post, new { @id = "SOFORM" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        <label for="last_date">Leave Type</label>
+                        @if (ViewBag.paid <= 0 && ViewBag.casual <= 0 && ViewBag.sick <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" disabled>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" disabled>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" disabled>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else if (ViewBag.paid <= 0 && ViewBag.casual <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" disabled>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" disabled>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" checked>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else if (ViewBag.paid <= 0 && ViewBag.sick <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" checked>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" disabled>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" checked>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else if (ViewBag.casual <= 0 && ViewBag.sick <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" checked>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" disabled>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" disabled>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else if (ViewBag.paid <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" disabled>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" checked>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" checked>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else if (ViewBag.casual <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" checked>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" disabled>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" checked>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else if (ViewBag.sick <= 0)
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" checked>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" checked>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" disabled>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="row">
+
+                                <input type="radio" name="Reason" value="Paid Leave" checked>Paid
+                                <input type="radio" name="Reason" value="Casual Leave" checked>Casual
+                                <input type="radio" name="Reason" value="Sick Leave" checked>Sick
+                                <input type="radio" name="Reason" value="Unpaid Leave" checked>UnPaid
+
+                            </div>
+                        }
+                    </div>
+                    <div class="form-group">
+                        <label for="last_date">From Date</label>
+                        <input type="date" name="FromDate" class="form-control datepicker" placeholder="Choose Date" id="date" value="date" onchange="get_date(this.value);" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last_date">To Date</label>
+                        <input type="date" name="ToDate" class="form-control datepicker" placeholder="Choose Date" id="date" value="date" onchange="get_date(this.value);" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Total Days</label>
+                                <input type="number" class="form-control" id="Days" name="Days" required="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Reason</label>
+                                <div class="compose-message-editor">
+                                    <textarea rows="5" class="form-control wysihtml5" data-stylesheet-url="assets/css/wysihtml5-color.css"
+                                              name="LeaveReason" placeholder="Write Your Reason"
+                                              id="LeaveReason"></textarea>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                      <div class="form-group">
+                        <label for="last_date">Enter Your Manager Email</label>
+
+                        <input type="text" class="form-control" id="ManagerEmail" name="ManagerEmail" required="">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="last_date">Enter Your Email</label>
+
+                        <input type="text" class="form-control" id="Email" name="Email" required="">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last_date">Password</label>
+
+                        <input type="password" class="form-control" id="Password" name="Password" required="">
+
+                    </div>
+
+            
+                    if (@ViewBag.Message != null)
+
+
+                    {
+
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10">
+                            <span class="text-warning">@ViewBag.Message</span>
+                        </div>
+                    }
+
+
+                    <div class=" form-group text-center">
+                        <button class="btn btn-primary mt-2 w-50" style="" type="submit">Submit</button>
+                    </div>
+                    <input type="hidden" name="EmpId" value="@ViewBag.EmpId" id="EmpId" />
+                }
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/themekit/Moment.min.js"></script>
+    <script src="~/themekit/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+
+    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+    <script type="text/javascript">
+
+        var ID;
+        $(function () {
+            stafflist();
+        });
+        function GroupingDetail(fromdate, todate, key) {
+            fromdate = $('#from').val();
+            todate = $('#to').val();
+            var EmpId = id;
+            key = key;
+            //alert(key);
+            Detail(EmpId, fromdate, todate, key)
+        }
+
+        function stafflist() {
+            var SetData = $(".leavedetail tbody").empty();
+
+            if ($.fn.DataTable.isDataTable('.leavedetail')) {
+
+                $('.leavedetail').DataTable().clear().destroy();
+
+            }
+
+            $('.leavedetail').DataTable({
+
+                "ajax": {
+                    "url": "/HumanResource/LeaveStaffList",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+
+                    { "data": "Name" },
+                    { "data": "Department" },
+                    { "data": "Position" },
+                    { "data": "Total" },
+                    { "data": "Days" },
+                    { "data": "Remain" },
+                    { className: "hide", data: 'EmpId' },
+                    {
+
+                        "mRender": function (data, type, row) {
+                            return '<a href="#" class="editor_remove" onclick="Detail(' + row.EmpId + ')">Detail</a>'
+
+
+                        }
+                    }
+
+                ]
+
+
+            });
+        }
+
+        function Detail(EmpId,fromdate,todate,key) {
+
+            id = EmpId;
+            fromdate = fromdate;
+            todate = todate;
+            var chartdata;
+           // alert(fromdate);
+           // alert(todate);
+           // alert(id)
+            var detaillist;
+            var SetData = $("#leavedetaillist tbody").empty()
+            if ($.fn.DataTable.isDataTable('#leavedetaillist')) {
+
+                $('#leavedetaillist').DataTable().clear().destroy();
+
+            }
+            $.ajax({
+                cache: false,
+                url: "@Url.Action("detailchartdate", "HumanResource")",
+                data: { EmpId: id, fromdate: fromdate, todate: todate,key:key },
+                success: function (result) {
+                    chartdata = result;
+                    $.ajax({
+                    type: "GET",
+                    cache: false,
+                    url: "@Url.Action("LeaveDetailList", "HumanResource")",
+                    data: { EmpId: id},
+                    beforeSend: function () {
+                    },
+                    success: function (result) {
+                        detaillist = jQuery.parseJSON(JSON.stringify(result));
+                        detailnum = detaillist.LeaveId.length;
+                        //console.log(detailnum)
+                        $('#detailMD').modal('show');
+                        for (var i = 0; i < detailnum; i++) {
+                            Data = "<tr>" +
+                                "<td>" + detaillist.Name[i] + "</td>" +
+
+                                "<td>" + detaillist.Department[i] + "</td>" +
+                                "<td>" + detaillist.Position[i] + "</td>" +
+                                "<td>" + detaillist.Reason[i] + "</td>" +
+                                "<td>" + detaillist.LeaveReason[i] + "</td>" +
+                                "<td>" + detaillist.FromDate[i] + "</td>" +
+                                "<td>" + detaillist.TodDate[i] + "</td>" +
+                                "<td>" + detaillist.Days[i] + "</td>" +
+                                "<td>" + detaillist.SupervisorProve[i] + "</td>" +
+                                "</tr>";
+
+                            SetData.append(Data);
+                        }
+                        table = $("#leavedetaillist").DataTable({
+                            "ordering": true,
+
+                            retrieve: true,
+                            destroy: true,
+                            paging: true,
+                            searching: true,
+                            info: true,
+
+                        });
+                        Highcharts.chart('detailchart', {
+                            chart: {
+                                type: 'line'
+                            },
+                            title: {
+                                text: 'Leave Count'
+                            },
+                            subtitle: {
+                                text: 'Detail'
+                            },
+                            xAxis: {
+                                name: 'Date',
+                                categories: chartdata.date
+                            },
+                            yAxis: {
+                                title: { text: 'Count' }
+                            },
+                            series: [{
+                                name: 'Leave Count',
+                                data: chartdata.count
+                            }]
+                        });
+                    },
+                    complete: function () {
+
+                    }
+                });
+            }
+            });
+
+        }
+
+       
+        function InsertLeave() {
+               
+            $('#noticeMD').modal('show');
+        }
+
+
+        function DelNotice() {
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("DeleteNotice", "HumanResource")',
+                data: { ID: ID },
+                beforeSend: function () {
+                    $('#DeleteNoticeModel').modal('hide');
+                },
+                success: function (myData) {
+
+
+                },
+
+                complete: function () {
+                    noticelist();
+                }
+            });
+        }
+    </script>
+}
