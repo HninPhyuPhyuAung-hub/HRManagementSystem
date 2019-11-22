@@ -470,7 +470,6 @@ D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.WindowsServer.xml
 D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.AI.Web.xml
 D:\HRManagementSystem\HRManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csprojAssemblyReference.cache
-D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CoreCompileInputs.cache
 D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.csproj.CopyComplete
 D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.dll
 D:\HRManagementSystem\HRManagementSystem\obj\Debug\HRManagementSystem.pdb
