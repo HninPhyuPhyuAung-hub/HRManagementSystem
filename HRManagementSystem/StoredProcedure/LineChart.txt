@@ -12,33 +12,11 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CREATE PROCEDURE [dbo].[LineChart] 
  @F date,
  @T date,
  @K varchar(50)
 
- 
 AS
 
 BEGIN
@@ -52,79 +30,45 @@ DECLARE @key varchar(50);
 SELECT @key = @K;
 
 
-
-
-
-
-
-
-
-
-
-
 IF (@key = 'Y')
 BEGIN
 	
    WITH first AS 
 (
-   SELECT         SUM(R.Days)AS Count,R.EmpId,
-				 
-				  CONVERT(date,R.FromDate)AS Date 
-
-	FROM         dbo.Leave AS R 
-						      
-	WHERE        (R.FromDate IS NOT NULL) AND   CONVERT(date,R.FromDate) >= @StartDate AND CONVERT(date,R.FromDate)<= @EndDate
-
-	GROUP BY	CONVERT(date,R.FromDate),R.EmpId
+        SELECT         SUM(R.Days)AS Count,R.EmpId,
+		       CONVERT(date,R.FromDate)AS Date 
+	FROM           dbo.Leave AS R 
+	WHERE          (R.FromDate IS NOT NULL) AND   CONVERT(date,R.FromDate) >= @StartDate AND CONVERT(date,R.FromDate)<= @EndDate
+	GROUP BY       CONVERT(date,R.FromDate),R.EmpId
 )
-
-
  SELECT       SUM(first.Count) AS count, DATEFROMPARTS(YEAR(first.Date),01,01) AS date,(first.EmpId)AS EmpID
  FROM         first
-                     
- GROUP By  DATEFROMPARTS(YEAR(first.Date),01,01),first.EmpId
- ORDER BY DATEFROMPARTS(YEAR(first.Date),01,01) ASC
+ GROUP By     DATEFROMPARTS(YEAR(first.Date),01,01),first.EmpId
+ ORDER BY     DATEFROMPARTS(YEAR(first.Date),01,01) ASC
 	
-
 END
  
 ELSE
 BEGIN
-	
-		
 
 WITH first AS 
 (
 
-    SELECT         SUM(R.Days)AS Count,R.EmpId,
-				 
-				  CONVERT(date,R.FromDate)AS Date 
-
-	FROM         dbo.Leave AS R 
-						      
-	WHERE        (R.FromDate IS NOT NULL) AND   CONVERT(date,R.FromDate) >= @StartDate AND CONVERT(date,R.FromDate)<= @EndDate
-
-	GROUP BY	CONVERT(date,R.FromDate),R.EmpId
+        SELECT       SUM(R.Days)AS Count,R.EmpId,
+		     CONVERT(date,R.FromDate)AS Date 
+        FROM         dbo.Leave AS R 
+        WHERE        (R.FromDate IS NOT NULL) AND CONVERT(date,R.FromDate) >= @StartDate AND CONVERT(date,R.FromDate)<= @EndDate
+        GROUP BY     CONVERT(date,R.FromDate),R.EmpId
 )
-
-SELECT        SUM(first.Count) AS count,DATEFROMPARTS(YEAR(first.Date),Month(first.Date),01) AS date,(first.EmpId)AS EmpID
-FROM         first
-                     
-GROUP BY	DATEFROMPARTS(YEAR(first.Date),Month(first.Date),01),first.EmpId
-                     
-ORDER BY	DATEFROMPARTS(YEAR(first.Date),Month(first.Date),01) ASC
+SELECT           SUM(first.Count) AS count,DATEFROMPARTS(YEAR(first.Date),Month(first.Date),01) AS date,(first.EmpId)AS EmpID
+FROM             first
+GROUP BY	 DATEFROMPARTS(YEAR(first.Date),Month(first.Date),01),first.EmpId
+ORDER BY	 DATEFROMPARTS(YEAR(first.Date),Month(first.Date),01) ASC
 	
-		 
-
 
 END
 
-	
-	
-
-
 END
-
 
 
 GO

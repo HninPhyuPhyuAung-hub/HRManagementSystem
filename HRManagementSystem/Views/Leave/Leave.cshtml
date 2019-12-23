@@ -1,0 +1,481 @@
+﻿
+@section css{
+    <link href="~/Content/custom.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-10">
+        <div class="custom-card">
+            <div class="row">
+                <div class="col-md-9">
+                    <h1>Approved</h1>
+                    <h4>Leave Tracking</h4>
+                </div>
+            </div>
+            <!-- Current server load -->
+            <div class="row">
+                <div class="col-md-2 col-lg-push-10">
+                    <button id="addleave" type="button" class="btn btn-primary btn-sm btn-rounded btnmain" style="background-color:#0000ff;border-color:#47d147;border-color:black" onclick="InsertLeave()" title="Add New"><i class="fa fa-plus"></i> Add Leave Request</button>
+                </div>
+                <!-- /current server load -->
+            </div>
+            <hr />
+
+            <div class="modal fade" id="shopownerMD" tabindex="-1" role="dialog" aria-labelledby="myModal-label" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="bindshop">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal heading" id="shopownerMD1" tabindex="-1" role="heading" aria-labelledby="myModal-label" aria-hidden="true">
+                <div class="modal-dialog modal-footer">
+                    <div class="modal-content">
+                        <div class="bindshop1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-10">
+        <div class="custom-card">
+            <div class="row">
+                <table id="" class="leavedetail table table-bordered table-striped table-hover" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Position</th>
+                            <th>Earned Leave</th>
+                            <th>Taken Leave</th>
+                            <th>Reamining Leave</th>
+                            <th></th>
+                            <th>Detail</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="detailMD" tabindex="-1" role="dialog" aria-labelledby="detailMD-label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color:#0000ff">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="detailMD-label" style="color:#fff">Detail</h4>
+            </div>
+            <br /><br />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-primary" style="background:palevioletred;background-color:blue" #0000ff" onclick="GroupingDetail(null,null,'M')">Month</button>
+                            <button type="button" class="btn btn-primary" style="background:palevioletred;background-color:blue" onclick="GroupingDetail(null,null,'Y')">Year</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="" class="form-inline input-group dateform">
+                            <div class="form-group">
+                                <input type="text" class="form-control datepicker" placeholder="From" id="from" style="width:150px;">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control datepicker" placeholder="To" id="to" style="width:150px;">
+                            </div>
+                            <div class="input-group-btn form-group">
+                                <button onclick="getdate()" class="btn btn-primary btnmain" type="button" style="background-color:blue"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="detailchart" style="height:400px"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <table id="leavedetaillist" class="table table-bordered table-striped table-hover" width="75%">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Department</th>
+                                    <th>Position</th>
+                                    <th>Leave Type</th>
+                                    <th>Leave Reason</th>
+                                    <th>From Date</th>
+                                    <th>To Date</th>
+                                    <th>Days</th>
+                                    <th>Supervisor Approve</th>
+                                    <th>Edit</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary btnmain" style="background-color:blue" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+    <script src="~/themekit/Moment.min.js"></script>
+    <script src="~/themekit/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+    <script type="text/javascript">
+        var table;
+        var leaveid;
+        var fromdate;
+        var todate;
+        var id;
+        var key;
+        $(function () {
+            LeaveList();
+            $('.datepicker').datetimepicker({
+                format: 'DD-MMM-YYYY'
+            });
+        });
+
+        function LeaveList() {
+            var detaildata;
+            var SetData = $(".leavedetail tbody").empty();
+            if ($.fn.DataTable.isDataTable('.leavedetail'))
+            {
+               $('.leavedetail').DataTable().clear().destroy();
+            }
+
+            $('.leavedetail').DataTable({
+                "ajax": {
+                    "url": "/Leave/LeaveDetail",
+                    "type": "GET",
+                    "datatype": "json"
+                },
+                "columns": [
+                    { "data": "Name"  },
+                    { "data": "Department" },
+                    { "data": "Position" },
+                    { "data": "Total" },
+                    { "data": "Days" },
+                    { "data": "Remain" },
+                    { className: "hide", data: 'EmpId' },
+                    {
+
+                            "mRender": function (data, type, row) {
+                             return '<a href="#" class="editor_remove" onclick="Detail(' + row.EmpId + ')">Detail</a>'
+                        }
+                    }
+                ]
+            });
+        }
+
+        function GroupingDetail(fromdate,todate,key) {
+            fromdate = $('#from').val();
+            todate = $('#to').val();
+            var EmpId = id;
+            key = key;
+            //alert(key);
+            Detail(EmpId, fromdate, todate,key)
+        }
+
+        function getdate(){
+            fromdate = $('#from').val();
+            todate = $('#to').val();
+            var EmpId = id;
+            Detail(EmpId,fromdate,todate)
+        }
+
+        function Detail(EmpId, fromdate, todate, key)
+        {
+            id = EmpId;
+            fromdate = fromdate;
+            todate = todate;
+            var chartdata;
+           // alert(fromdate);
+           // alert(todate);
+           // alert(id)
+            var detaillist;
+            var SetData = $("#leavedetaillist tbody").empty()
+            if ($.fn.DataTable.isDataTable('#leavedetaillist'))
+            {
+                $('#leavedetaillist').DataTable().clear().destroy();
+            }
+            $.ajax({
+                cache: false,
+                url: "@Url.Action("detailchartdate", "Leave")",
+                data: { EmpId: id, fromdate: fromdate, todate: todate,key:key },
+                success: function (result) {
+                    chartdata = result;
+                    $.ajax({
+                    type: "GET",
+                    cache: false,
+                    url: "@Url.Action("LeaveDetailList", "Leave")",
+                    data: { EmpId: id},
+                    beforeSend: function () {
+                    },
+                    success: function (result) {
+                        detaillist = jQuery.parseJSON(JSON.stringify(result));
+                        detailnum = detaillist.LeaveId.length;
+                        //console.log(detailnum)
+                        $('#detailMD').modal('show');
+                        for (var i = 0; i < detailnum; i++) {
+                            Data = "<tr>" +
+                                "<td>" + detaillist.Name[i] + "</td>" +
+                                "<td>" + detaillist.Department[i] + "</td>" +
+                                "<td>" + detaillist.Position[i] + "</td>" +
+                                "<td>" + detaillist.Reason[i] + "</td>" +
+                                "<td>" + detaillist.LeaveReason[i] + "</td>" +
+                                "<td>" + detaillist.FromDate[i] + "</td>" +
+                                "<td>" + detaillist.TodDate[i] + "</td>" +
+                                "<td>" + detaillist.Days[i] + "</td>" +
+                                "<td>" + detaillist.SupervisorProve[i] + "</td>" +
+                                "<td>" + '<a href="#" class="editor_remove" onclick="LeaveForm(' + detaillist.LeaveId[i] + ')">Edit</a>' + "</td>" +
+                                "</tr>";
+                            SetData.append(Data);
+                        }
+                        table = $("#leavedetaillist").DataTable({
+                            "ordering": true,
+                            retrieve: true,
+                            destroy: true,
+                            paging: true,
+                            searching: true,
+                            info: true,
+                        });
+                        Highcharts.chart('detailchart', {
+                            chart: {
+                                type: 'line'
+                            },
+                            title: {
+                                text: 'Leave Count'
+                            },
+                            subtitle: {
+                                text: 'Detail'
+                            },
+                            xAxis: {
+                                name: 'Date',
+                                categories: chartdata.date
+                            },
+                            yAxis: {
+                                title: { text: 'Count' }
+                            },
+                            series: [{
+                                name: 'Leave Count',
+                                data: chartdata.count
+                            }]
+                        });
+                    },
+                        complete: function () {
+
+                    }
+                });
+            }
+            });
+        }
+
+        function LeaveForm(LeaveId) {
+            leaveid = LeaveId;
+            //alert(leaveid)
+            $.ajax({
+                cache: false,
+                url: "@Url.Action("LeaveForm","Leave")",
+                data: { LeaveId: leaveid },
+                beforeSend: function () {
+
+                },
+                success: function (myData) {
+                    $('#detailMD').modal('hide');
+                    $('.bindshop').empty().append(myData);
+                },
+                 complete: function () {
+                     $('#shopownerMD').modal('show');
+                    $("#SOFORM").submit(function (e) {
+                        e.preventDefault();
+                        $.ajax({
+                            cache: false,
+                            type: "POST",
+                            url: '@Url.Action("UpdateLeave", "Leave")',
+                            data: $(this).serialize(),
+                            beforeSend: function () {
+                            },
+                            success: function (myData) {
+
+                                if (myData == "Success") {
+                                    LeaveList();
+
+                                    $('#shopownerMD').modal('hide');
+                                    $('#save').on('click', function () {
+                                        $(this).prop("disabled", true);
+                                    });
+                                }
+                                else if (myData == "Fail")
+                                {
+                                    alert("This employee is not register in the table! Please fill the information correctly! Thanks!")
+                                }
+                                else {
+                                    var result = jQuery.parseJSON(myData);
+                                    if (result < 0) {
+                                        alert("This employee has no leave for this type! Please choose another leave!")
+                                    }
+                                    else {
+                                        alert("This employee has leave for only" + result +" days! Please pay only "+result+ " days for this type of leave or choose another leave!")
+                                    }
+                                }
+                            },
+                            complete: function () {
+                             //   LeaveList();
+                            }
+                        });
+                    });
+                }
+            });
+        }
+
+        function InsertLeave() {
+            $('#fromdate').val(null);
+            $('#todate').val(null);
+            $.ajax({
+                cache: false,
+                url: "@Url.Action("LeaveForm","Leave")",
+                data: { LeaveId: 0 },
+                beforeSend: function () {
+                  $.ajax({
+                        cache: false,
+                        url: '@Url.Action("getDepartment", "Leave")',
+                          beforeSend: function () {
+                          $('#shopownerMD1').modal('show');
+                          $('#shopownerMD').modal('hide');
+                          $('.bindshop1').empty().append('<div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div> <h5 class="text-center">Loading...</h5>');
+                          $.ajax({
+                              cache: false,
+                              url: '@Url.Action("getName", "Leave")',
+                              beforeSend: function () {                     
+                                  $.ajax({
+                                      cache: false,
+                                      url: '@Url.Action("getPosition", "Leave")',
+                                      beforeSend: function () {
+
+                                      },
+                                      success: function (result) {
+                                          if (result != null) {
+                                              $("#position").empty();
+                                              $("#position").append($('<option value=""> -- Choose -- </option>'));
+                                              for (i = 0; i < result.length; i++) {
+                                                  $('#position').append($('<option value="' + result[i].Value + '">' + result[i].Value + '</option>>'));
+                                              }
+                                          }
+                                          $('#position').val($('#positionhidden').val());
+                                         },
+                                      complete: function () {
+
+                                      },
+
+                                  });
+                              },
+                              success: function (result) {
+                                  if (result != null) {
+                                      $("#name").empty();
+                                      $("#name").append($('<option value=""> -- Choose -- </option>'));
+                                      for (i = 0; i < result.length; i++) {
+                                          $('#name').append($('<option value="' + result[i].Value + '">' + result[i].Value + '</option>>'));
+                                      }
+                                  }
+                                  $('#name').val($('#namehidden').val());
+
+                              },
+                              complete: function () {
+                              },
+                          });
+                      },          
+                        success: function (result) {
+                            if (result != null) {
+                                $("#department").empty();
+                                $("#department").append($('<option value=""> -- Choose -- </option>'));
+                                for (i = 0; i < result.length; i++) {
+                                    $('#department').append($('<option value="' + result[i].Value + '">' + result[i].Value + '</option>>'));
+                                }
+                            }
+                            $('#department').val($('#departmenthidden').val());
+
+                        },
+                      complete: function () {
+
+                      },  
+                       });           
+                },       
+                success: function (myData) {
+                    $('.bindshop').empty().append(myData);
+                    $('#shopownerMD1').modal('hide');
+                },
+                 complete: function () {
+                     $('#shopownerMD').modal('show');
+                    $("#SOFORM").submit(function (e) {
+                        e.preventDefault();
+                        $.ajax({
+                            cache: false,
+                            type: "POST",
+                            url: '@Url.Action("UpdateLeave", "Leave")',
+                            data: $(this).serialize(),
+                            beforeSend: function () {
+                            },
+                            success: function (myData) {
+
+                                if (myData == "Success") {
+                                    LeaveList();
+                                    @*$.ajax({
+                            cache: false,
+                                        url: '@Url.Action("LeaveDetail", "HumanResource")'
+                        })*@
+
+                                    $('#shopownerMD').modal('hide');
+                                    $('#save').on('click', function () {
+                                        $(this).prop("disabled", true);
+                                    });
+                                }
+                                else if (myData == "Fail")
+                                {
+                                    alert("This employee is not register in the table! Please fill the information correctly! Thanks!")
+                                }
+                                else {
+                                    var result = jQuery.parseJSON(myData);
+                                    if (result < 0) {
+                                        alert("This employee has no leave for this type! Please choose another leave!")
+                                    }
+                                    else {
+                                        alert("This employee has leave for only" + result +" days! Please pay only "+result+ " days for this type of leave or choose another leave!")
+                                    }
+
+                                }
+                            },
+                            complete: function () {
+
+                            }
+                        });
+                    });
+                }
+            });
+        }
+
+    </script>
+}

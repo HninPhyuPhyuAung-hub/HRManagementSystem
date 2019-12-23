@@ -36,13 +36,12 @@ namespace HRManagementSystem.Controllers
                     SetCookie("hrCookie", result.ID, result.Username, result.Email, result.Phone, result.Role, result.EmpId);
                     if (result.Role == "Staff")
                     {
-                        return RedirectToAction("Award", "HumanResource");
+                        return RedirectToAction("Award", "Award");
                     }
                     else
                     {
                         return RedirectToAction("Dashboard", "HumanResource");
                     }
-                   
                 }
                 else
                 {
@@ -66,6 +65,7 @@ namespace HRManagementSystem.Controllers
             myCookie.Expires = DateTime.Now.AddDays(30);
             HttpContext.Response.Cookies.Add(myCookie);
         }
+      
         public ActionResult LogOut()
         {
             FormsAuthentication.SignOut();
@@ -74,6 +74,7 @@ namespace HRManagementSystem.Controllers
             Session.Clear();
             return RedirectToAction("Login", "UserLogin");
         }
+      
         public bool RemoveCookie(String CookieName)
         {
             if (HttpContext.Request.Cookies[CookieName] != null)
@@ -85,10 +86,12 @@ namespace HRManagementSystem.Controllers
             }
             return false;
         }
+        
         public ActionResult Register()
         {
             return View();
         }
+      
         [HttpPost]
         [AllowAnonymous]
         public ActionResult Register(RegisterViewModel register)
@@ -108,8 +111,6 @@ namespace HRManagementSystem.Controllers
                 ViewBag.Message = "This employee is not registerred in this company!";
                 return View(register);
             }
-            
-           
             else  if (result1 == null)
             {
                 result.EmpId = EmpId;
@@ -118,24 +119,22 @@ namespace HRManagementSystem.Controllers
                 SetCookie("hrCookie", data.ID, data.Username, data.Email, data.Phone, data.Role,data.EmpId);
                 return RedirectToAction("Index", "HumanResource");
             }
-
             else {
                 ViewBag.Message = "This email is already registerred!";
                 return View(register);
-            }
-            // If we got this far, something failed, redisplay form
-          
+            }     
         }
+
         public ActionResult ChangePassword()
         {
             return View();
         }
+
         [HttpPost]
         [AllowAnonymous]
         public ActionResult ChangePassword(ChangePassword change)
         {
             HumanResourceContext context = new HumanResourceContext();
-
             Account member = null;
             int memberID = Convert.ToInt32(Request.Cookies["hrCookie"]["AdminID"]);
             string password = change.CurrentPassword;
@@ -144,11 +143,9 @@ namespace HRManagementSystem.Controllers
             {
                 return View();
             }
-
             else if (result != null)
             {
                 result.Password = change.NewPassword;
-
                 member = accrepo.Update(result);
                 if (member != null)
                 {
@@ -165,10 +162,12 @@ namespace HRManagementSystem.Controllers
             }
             return View();
         }
+
         public ActionResult ForgotPassword()
         {
             return View();
         }
+
         [HttpPost]
         [AllowAnonymous]
         public ActionResult ForgotPassword(ForgotPasswordViewModel model)
@@ -196,7 +195,6 @@ namespace HRManagementSystem.Controllers
                     {
                         emailtimeout = "";
                     }
-                    //Create URL with above token  
                     var lnkHref = "<a href='" + Url.Action("ResetPassword", "UserLogin", new { param = emailtimeout, IV = em }, "http") + "'>Reset Password</a>";
                     //var lnkHref = "<a href='"+ Url.Action("ResetPassword", "UserLogin", new { param = emailtimeout, IV = em }) + "'>Reset Password</a>";
                     //HTML Template for Send email  
@@ -211,6 +209,7 @@ namespace HRManagementSystem.Controllers
             ViewBag.sendmessage = "Reset password link has been sent to your email.";
             return View();
         }
+
         public static void AppSettings(out string UserID, out string Password, out string SMTPPort, out string Host)
         {
             UserID = ConfigurationManager.AppSettings.Get("UserID");
@@ -234,6 +233,7 @@ namespace HRManagementSystem.Controllers
             smtp.EnableSsl = true;
             smtp.Send(mail);
         }
+
         public ActionResult ResetPassword(string param = null, string IV = null)
         {
             if (param != null)
@@ -269,6 +269,7 @@ namespace HRManagementSystem.Controllers
                 return View("Error");
             }
         }
+
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
@@ -297,10 +298,11 @@ namespace HRManagementSystem.Controllers
                 return View();
             }
         }
-   
+
         public ActionResult Error()
         {
             return View();
         }
+
     }
 }

@@ -14,12 +14,10 @@
             font-size: 14px;
             border: none;
         }
-
         .dropdown {
             position: relative;
             display: inline-block;
         }
-
         .dropdown-content {
             display: none;
             position: absolute;
@@ -28,14 +26,12 @@
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
         }
-
             .dropdown-content a {
                 color: black;
                 padding: 12px 16px;
                 text-decoration: none;
                 display: block;
             }
-
                 .dropdown-content a:hover {
                     background-color: #ddd;
                 }
@@ -43,14 +39,12 @@
         .dropdown:hover .dropdown-content {
             display: block;
         }
-
         .dropdown:hover .dropbtn {
             background-color: #00ccff;
         }
         nav ul li ul {
             display: none;
         }
-
         nav ul li:hover ul {
             display: block;
         }
@@ -58,7 +52,6 @@
     <link rel="shortcut icon" href="~/Image/hrlogo.jpg" />
 
     <title>HR Web Portal</title>
-
     <link href="~/themekit/css/all.css" rel="stylesheet" />
     <link href="~/themekit/css/app.css" rel="stylesheet" />
     <link href="~/Content/custom.css" rel="stylesheet" />
@@ -74,8 +67,6 @@
                 <a href="#" data-toggle="sidebar-menu" class="toggle pull-left visible-xs">
                     <i class="fa fa-bars"></i>
                 </a>
-
-
                 <a class="navbar-brand navbar-brand-primary" href="@Url.Action("StartView", "HumanResource")">
                     <div class="row">
                         <div class="col-md-4" >
@@ -85,10 +76,7 @@
                             <span style="font-size:20px;color:black">HR Portal</span>
                         </div>
                     </div>
-
                 </a>
-
-
             </div>
             @if (User.Identity.IsAuthenticated)
             {
@@ -99,20 +87,13 @@
                 int memberID = Convert.ToInt32(Request.Cookies["hrCookie"]["AdminID"]);
                 var membername = Request.Cookies["hrCookie"]["UserName"];
                 var role = Request.Cookies["hrCookie"]["Role"];
-
                 if (role == "Admin")
                 {
                     <div class="navbar-collapse collapse" id="collapse">
                         <div class="row">
-
-                            @*<div class="col-md-5 style="margin-top:10px;margin-bottom:-10px""></div>*@
                             <div class="col-md-4" style="margin-top:10px;margin-bottom:-10px">
-                               
-                            </div>
-
-
+                        </div>
                             <div class="col-md-4">
-
                                 <div class="dropdown" style="margin-top:10px;margin-bottom:-10px;padding-left:680px">
                                     <button class="btn btn-xs pull-right" style="padding:6px;color:black;background-color:blue;"> <i class="icon-settings-wheel-fill"></i>  Setting</button>
                                     <div class="dropdown-content">
@@ -127,8 +108,6 @@
                                     <a class="btn btn-xs pull-right" style="padding:5px;color:black;background-color:blue;" href="@Url.Action("LogOut", "UserLogin")"><i class="fa fa-sign-out"></i>Sign Out</a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 }
@@ -137,21 +116,13 @@
                 {
                     <div class="navbar-collapse collapse" id="collapse">
                         <div class="row">
-
-                            @*<div class="col-md-5 style="margin-top:10px;margin-bottom:-10px""></div>*@
-                            <div class="col-md-4" style="margin-top:10px;margin-bottom:-10px">
-                                
+                            <div class="col-md-4" style="margin-top:10px;margin-bottom:-10px">                                
                             </div>
-
-
                             <div class="col-md-4">
-
                                 <div class="dropdown" style="margin-top:10px;margin-bottom:-10px;padding-left:680px">
                                     <button class="btn btn-xs pull-right" style="padding:6px;color:black;background-color:blue;"> <i class="icon-settings-wheel-fill"></i>  Setting</button>
                                     <div class="dropdown-content">
-                                        <a href="@Url.Action("ChangePassword" ,"UserLogin")"><i class="icon-lock-fill"></i>  <font color="blue">  Change Password</font> </a>
-                                       
-                                        @*  <a href="#"></a>*@
+                                        <a href="@Url.Action("ChangePassword" ,"UserLogin")"><i class="icon-lock-fill"></i>  <font color="blue">  Change Password</font> </a>      
                                     </div>
                                 </div>
                             </div>
@@ -160,27 +131,19 @@
                                     <a class="btn btn-xs pull-right" style="padding:5px;color:black;background-color:blue;" href="@Url.Action("LogOut", "UserLogin")"><i class="fa fa-sign-out"></i>Sign Out</a>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                 }
             }
         </div>
     </div>
-   
     
     <div class="sidebar left sidebar-size-2 sidebar-offset-0 sidebar-skin-dark sidebar-visible-desktop sidebar-visible-mobile" id=sidebar-menu data-type=dropdown>
         <div class="split-vertical">
-
             <div class="split-vertical-body">
                 <div class="split-vertical-cell">
                     <div data-scrollable>
-
-                        <ul class="sidebar-menu" style="margin-left:15px;line-height:3.4;">
-                            
-
-                            
+                        <ul class="sidebar-menu" style="margin-left:15px;line-height:3.4;">                            
                             @if(User.Identity.IsAuthenticated)
                             {
                             }
@@ -191,10 +154,8 @@
                                 if (role=="Admin")
                                 {
                             <nav>
-
                                 <ul>
                                     <li class="category" style="color:deepskyblue" ;font-size:20px">Welcome @membername</li>
-
                                     <li>
                                         <i class="fa fa-globe"></i><span><font color="white">Dashboard</font></span>
                                         <ul>
@@ -214,46 +175,47 @@
                                                 <a href="@Url.Action("EmployeeList", "HumanResource")"><i class="fa fa-list"></i><font color="white">Employee List</font></a>
                                             </li>
                                         </ul>
-
-
-                                    </li>
+                                   </li>
 
                                     <li>
                                         <i class="icon-browser"></i><span><font color="white">Department Details</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Department", "HumanResource")"><i class="fa fa-table"></i><font color="white">Department</font></a>
+                                                <a href="@Url.Action("Department", "Department")"><i class="fa fa-table"></i><font color="white">Department</font></a>
                                             </li>
 
                                         </ul>
                                     </li>
+
                                     <li>
                                         <i class="fa fa-user"></i><span><font color="white">Recruitment</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Vacancies", "HumanResource")"><i class="fa fa-gears"></i><font color="white">Vacancies</font></a>
+                                                <a href="@Url.Action("Vacancies", "Recruitment")"><i class="fa fa-gears"></i><font color="white">Vacancies</font></a>
                                             </li>
                                             <li>
-                                                <a href="@Url.Action("Application", "HumanResource")"><i class="fa fa-mail-reply"></i><font color="white">Application</font></a>
+                                                <a href="@Url.Action("Application", "Application")"><i class="fa fa-mail-reply"></i><font color="white">Application</font></a>
                                             </li>
                                         </ul>
                                     </li>
+
                                     <li>
                                         <i class="fa fa-bus"></i><span><font color="white">Leave</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Leave", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Add Leave</font></a>
+                                                <a href="@Url.Action("Leave", "Leave")"><i class="fa fa-plus"></i><font color="white">Add Leave</font></a>
                                             </li>
                                         </ul>
                                     </li>
+
                                     <li>
                                         <i class="fa fa-money"></i><span><font color="white">Pay Roll</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Salary", "HumanResource")"><i class="fa fa-calculator"></i><font color="white">Calculate Salary</font></a>
+                                                <a href="@Url.Action("Salary", "SalaryCalculation")"><i class="fa fa-calculator"></i><font color="white">Calculate Salary</font></a>
                                             </li>
                                             <li>
-                                                <a href="@Url.Action("Paysliplist", "HumanResource")"><i class="fa fa-list"></i><font color="white">Payslip List</font></a>
+                                                <a href="@Url.Action("Paysliplist", "Payslip")"><i class="fa fa-list"></i><font color="white">Payslip List</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -261,7 +223,7 @@
                                         <i class="fa fa-print"></i><span><font color="white">Award</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Award", "HumanResource")"><i class="icon-happy-content"></i><font color="white">Award</font></a>
+                                                <a href="@Url.Action("Award", "Award")"><i class="icon-happy-content"></i><font color="white">Award</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -269,7 +231,7 @@
                                         <i class="fa fa-tags"></i><span><font color="white">Expense</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Expense", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Expense</font></a>
+                                                <a href="@Url.Action("Expense", "Expense")"><i class="fa fa-plus"></i><font color="white">Expense</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -277,7 +239,7 @@
                                         <i class="fa fa-bell"></i><span><font color="white">Notice Board</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("NoticeBoard", "HumanResource")"><i class="fa fa-mail-reply-all"></i><font color="white">NoticeBoard</font></a>
+                                                <a href="@Url.Action("NoticeBoard", "NoticeBoard")"><i class="fa fa-mail-reply-all"></i><font color="white">NoticeBoard</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -285,7 +247,7 @@
                                         <i class="fa fa-paper-plane-o"></i><span><font color="white">Message</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Message", "HumanResource")"><i class="fa fa-mail-reply "></i><font color="white">Message</font></a>
+                                                <a href="@Url.Action("Message", "Message")"><i class="fa fa-mail-reply "></i><font color="white">Message</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -306,7 +268,7 @@
                                         <i class="fa fa-bus"></i><span><font color="white">Leave</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("LeaveStaff", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Add Leave</font></a>
+                                                <a href="@Url.Action("LeaveStaff", "Leave")"><i class="fa fa-plus"></i><font color="white">Add Leave</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -315,7 +277,7 @@
                                         <ul>
 
                                             <li>
-                                                <a href="@Url.Action("Paysliplist", "HumanResource")"><i class="fa fa-list"></i><font color="white">Payslip List</font></a>
+                                                <a href="@Url.Action("Paysliplist", "Payslip")"><i class="fa fa-list"></i><font color="white">Payslip List</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -323,7 +285,7 @@
                                         <i class="fa fa-print"></i><span><font color="white">Award</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Award", "HumanResource")"><i class="icon-happy-content"></i><font color="white">Award</font></a>
+                                                <a href="@Url.Action("Award", "Award")"><i class="icon-happy-content"></i><font color="white">Award</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -331,7 +293,7 @@
                                         <i class="fa fa-tags"></i><span><font color="white">Expense</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Expense", "HumanResource")"><i class="fa fa-plus"></i><font color="white">Expense</font></a>
+                                                <a href="@Url.Action("Expense", "Expense")"><i class="fa fa-plus"></i><font color="white">Expense</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -339,7 +301,7 @@
                                         <i class="fa fa-bell"></i><span><font color="white">Notice Board</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("NoticeBoard", "HumanResource")"><i class="fa fa-mail-reply-all"></i><font color="white">NoticeBoard</font></a>
+                                                <a href="@Url.Action("NoticeBoard", "NoticeBoard")"><i class="fa fa-mail-reply-all"></i><font color="white">NoticeBoard</font></a>
                                             </li>
                                         </ul>
                                     </li>
@@ -347,7 +309,7 @@
                                         <i class="fa fa-paper-plane-o"></i><span><font color="white">Message</font></span>
                                         <ul>
                                             <li>
-                                                <a href="@Url.Action("Message", "HumanResource")"><i class="fa fa-mail-reply "></i><font color="white">Message</font></a>
+                                                <a href="@Url.Action("Message", "Message")"><i class="fa fa-mail-reply "></i><font color="white">Message</font></a>
                                             </li>
                                         </ul>
                                     </li>

@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+}
+@model HRManagementSystem.Models.leavedetail
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="page-title-box page-title-box-sm">
+                    <h1 class="page-title"><i class=""></i>Leave Statement</h1>
+                </div>
+            </div>
+        </div>
+        <div class="custom-card">
+            <table table style="width:100%;height:150px">
+                <tr>
+                    <td style="text-align:center;background-color:skyblue">
+                        Leave
+                    </td>
+                    <td style="text-align:center;background-color:skyblue">
+                        Earned
+                    </td>
+                    <td style="text-align:center;background-color:skyblue">
+                        Taken
+                    </td>
+                    <td style="text-align:center;background-color:skyblue">
+                        Remain
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">Casual</td>
+                    <td style="text-align:center">6</td>
+                    <td style="text-align:center">@Model.casual</td>
+                    @{var casual = 6 - Model.casual;}
+                    <td style="text-align:center">@casual</td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:center">Sick</td>
+                    <td style="text-align:center">30</td>
+                    <td style="text-align:center">@Model.sick</td>
+                    @{var sick = 30 - Model.sick;}
+                    <td style="text-align:center">@sick</td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:center">Paid</td>
+                    <td style="text-align:center">13</td>
+                    <td style="text-align:center">@Model.paid</td>
+                    @{var paid = 13 - Model.paid;}
+                    <td style="text-align:center">@paid</td>
+                </tr>
+
+                <tr>
+                    <td style="text-align:center">Unpaid</td>
+                    <td style="text-align:center">-</td>
+                    <td style="text-align:center">@Model.unpaid</td>
+                    <td style="text-align:center">-</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</body>
+</html>

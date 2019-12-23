@@ -1,0 +1,317 @@
+﻿@section css{
+    <link href="~/Content/custom.css" rel="stylesheet" />
+}
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-10">
+        <div class="custom-card">
+            <div class="row">
+                <div class="col-md-offset-0">
+                    <span class="v-bottom" style="font-size:18px;font-weight:500;color:#428af5; padding-right:1100px;">
+                        <h1>Award List</h1>
+                    </span>
+                    @if (ViewBag.memberRole != "Admin")
+                    {<button id="addaward" type="button" class="btn btn-primary btn-sm btn-rounded btnmain" style="visibility:hidden" onclick="InsertAward()" title="Add New"><i class="fa fa-plus"></i> Add New Award</button>
+                    }
+                    else
+                    {
+                        <button id="addaward" type="button" class="btn btn-primary btn-sm btn-rounded btnmain" style="background-color:#0000ff;border-color:#47d147;border-color:black" onclick="InsertAward()" title="Add New"><i class="fa fa-plus"></i> Add New Award</button>
+                    }
+                </div>
+            </div>
+            <br />
+            <div class="container-fluid">
+                <table id="" class="award table table-bordered table-striped table-hover" width="100%">
+                    <thead>
+                        <tr>
+                            <th>Award Name</th>
+                            <th>Gift</th>
+                            <th>Amount</th>
+                            <th>Awarded Employee</th>
+                            <th>Date</th>
+                            @if (ViewBag.memberRole != "Admin")
+                            {
+                                <th style="visibility:hidden"></th>
+                                <th style="visibility:hidden">Edit</th>
+                                <th style="visibility:hidden">Delete</th>
+                            }
+                            else
+                            {
+                                <th></th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade slide-down" id="DeleteAwardModel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="v-cell">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">Confirm</h4>
+                </div>
+                <div class="modal-body">
+                    Are you sure want to delete?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-primary" onclick="DelAward()">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="awardMD">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modalHeaderSample">Add Award</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <br />
+            @model HRManagementSystem.Models.Award
+            <div class="modal-body" id="modalBodySample">
+                @using (Html.BeginForm("AddAward", "Award", FormMethod.Post, new { @id = "SOFORM" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="row">
+
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Award Name</label>
+                                <input type="text" class="form-control" id="awardname" name="awardname" required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Gift</label>
+                                <input type="text" class="form-control" id="gift" name="gift" required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label for="name">Amount</label>
+                                <input type="number" class="form-control" id="amount" name="amount" required="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Awarded Employee</label>
+                                @{
+                                    var state = new List<SelectListItem>()
+                                    {
+
+                                    };
+                                }
+                                <select name="awardemployee" class="form-control statehidden" id="state" value="state"></select>
+                                @*<input class="hidden" id="emphidden" value="@Model.awardemployee" />*@
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" >
+                        <label for="last_date">Date</label>
+                        @Html.TextBoxFor(model => model.date, "{0:yyyy-MM-dd}", new { @id="date",@type = "date", @class = "form-control" })
+                        @*@Html.TextBoxFor(a => a.date, "{0:yyyy-MM-dd}", new { type = "date", @class = "form-control" })*@
+                    </div>
+                    <div class=" form-group text-center">
+                        <button class="btn btn-primary mt-2 w-50" style="" type="submit">Submit</button>
+                    </div>
+                    <input type="hidden" name="ID" value="0" id="awardid" />
+                    <input type="hidden" name="EmId" value="0" id="EmpId" />
+       }
+
+            </div>
+
+            </div></div></div>
+           
+            @section scripts{
+                <script src="~/themekit/Moment.min.js"></script>
+                <script src="~/themekit/bootstrap-datetimepicker.min.js"></script>
+                <script src="https://code.highcharts.com/highcharts.js"></script>
+                <script src="https://code.highcharts.com/modules/data.js"></script>
+                <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+                <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+                <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+                <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+                <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+                <script type="text/javascript">
+
+                    var ID;
+                    var role = "@ViewBag.memberRole";
+                   $(function () {
+                      awardlist();
+                    });
+
+        function awardlist() {
+            var SetData = $(".award tbody").empty();
+            if ($.fn.DataTable.isDataTable('.award')) {
+                $('.award').DataTable().clear().destroy();
+            }
+            if (role != "Admin") {
+                $('.award').DataTable({
+                    "ajax": {
+                        "url": "/Award/AwardList",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+                        { "data": "awardname" },
+                        { "data": "gift" },
+                        { "data": "amount" },
+                        { "data": "awardemployee" },
+                        {
+                            "data": "date", render: function (data, type, row) {
+                                if (type === "sort" || type === "type") {
+                                    return data;
+                                }
+                                return moment(data).format("MM-DD-YYYY");
+                            }
+                        },
+                        { className: "hide", data: 'ID' },
+                        { className: "hide", data: 'ID' },
+                        { className: "hide", data: 'ID' }
+                    ]
+                });
+            }
+            else {
+                $('.award').DataTable({
+                    "ajax": {
+                        "url": "/Award/AwardList",
+                        "type": "GET",
+                        "datatype": "json"
+                    },
+                    "columns": [
+                        { "data": "awardname" },
+                        { "data": "gift" },
+                        { "data": "amount" },
+                        { "data": "awardemployee" },
+                        {
+                            "data": "date", render: function (data, type, row) {
+                                if (type === "sort" || type === "type") {
+                                    return data;
+                                }
+                                return moment(data).format("MM-DD-YYYY");
+                            }
+                        },
+
+                        { className: "hide", data: 'ID' },
+                        {
+                            "mRender": function (data, type, row) {
+                                return '<a href="#" class="editor_remove" onclick="EditAward(' + row.ID + ', \'' + row.awardname + '\' , \'' + row.gift + ' \', \'' + row.amount + '\', \'' + row.awardemployee + '\', \'' + row.date + '\', \'' + row.EmpId + '\')">Edit</a>'
+                            }
+                        }, {
+
+                            "mRender": function (data, type, row) {
+                                return '<a href="#" class="editor_remove" onclick="DeleteAward(' + row.ID + ')">Delete</a>'
+                            }
+                        }
+                    ]
+                });
+            }      
+                    }
+
+        function EditAward(Id, awardname, gift, amount, awardemployee,date,EmpId) {
+          //alert(Id);
+          //  alert(awardname);
+          //  alert(gift);
+          //  alert(amount);
+          //  alert(awardemployee);        
+            date = moment(date).format("YYYY-MM-DD");
+          //  alert(date);
+          //  alert(EmpId);
+            $('#awardname').val(awardname);
+            $('#awardid').val(Id);
+            $('#gift').val(gift);       
+            $('#amount').val(amount);
+            $('#date').val(date);
+           $.ajax({
+                cache: false,
+                url: '@Url.Action("getEmployee", "Award")',
+                beforeSend: function () {
+                    $('#awardMD').modal('hide');
+                },
+                success: function (result) {
+                    if (result != null) {
+                        $("#state").empty();
+                        $("#state").append($('<option value=""> -- Choose -- </option>'));
+                        for (i = 0; i < result.length; i++) {
+                            $('#state').append($('<option value="' + result[i].Value + '">' + result[i].Value + '</option>>'));
+                        }
+                    }
+                    $('#state').val(awardemployee);
+                  //  console.log(result);
+                    //$('#state').val($('.statehidden').val());
+                },
+                complete: function () {
+                    $('#awardMD').modal('show');
+                }
+            });
+        }
+
+                    function InsertAward() {
+                        $('#awardname').val(null);
+                        $('#awardid').val(null);
+                        $('#gift').val(null);               
+                      $('#amount').val(null);
+                        $('#date').val(null);
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("getEmployee", "Award")',
+                beforeSend: function () {
+                    $('#awardMD').modal('hide');
+                },
+                success: function (result) {
+                    if (result != null) {
+                        $("#state").empty();
+                        $("#state").append($('<option value=""> -- Choose -- </option>'));
+                        for (i = 0; i < result.length; i++) {
+                            $('#state').append($('<option value="' + result[i].Value + '">' + result[i].Value + '</option>>'));
+                        }
+                    }
+                    //console.log(result);
+                    $('#state').val($('.statehidden').val());
+                },
+                complete: function () {
+                    $('#awardMD').modal('show');
+                }
+            });
+        }
+
+        function DeleteAward(Id) {
+            ID = Id;
+            $('#DeleteAwardModel').modal('show');
+        }
+
+        function DelAward() {
+            $.ajax({
+                cache: false,
+                url: '@Url.Action("DeleteAward", "Award")',
+                data: { ID: ID },
+                beforeSend: function () {
+                    $('#DeleteAwardModel').modal('hide');
+                },
+                success: function (myData) {
+
+                },
+                complete: function () {
+                    awardlist();
+                }
+            });
+        }
+                </script>
+            }
